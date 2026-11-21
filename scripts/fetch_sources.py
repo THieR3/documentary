@@ -156,6 +156,16 @@ def main() -> None:
 
     need("ffmpeg")
     proj = project_dir(args.project)
+    # files committed in projects/<slug>/inputs/ (music, maps, photos) are copied into media/ (media/ is not in git)
+    inputs = proj / "inputs"
+    if inputs.exists():
+        for f in inputs.rglob("*"):
+            if f.is_file():
+                dst = proj / "media" / f.relative_to(inputs)
+                if not dst.exists():
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(f, dst)
+                    print(f"input -> media/{dst.relative_to(proj / 'media').as_posix()}")
     sources = load_json(proj / "sources.json")
     only = set(filter(None, args.only.split(",")))
     media = proj / "media" / "sources"

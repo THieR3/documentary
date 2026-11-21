@@ -51,6 +51,8 @@ python scripts/fetch_sources.py <slug>
 ```
 Produit dans `projects/<slug>/build/sources/` : `<id>.transcript.txt` (lignes `[mm:ss - mm:ss] texte`),
 `<id>.sheet_XX.jpg` (planches contact : 1 vignette par plan, n° + timecode), `<id>.shots.json`.
+Les fichiers fournis par l'utilisateur et committés dans `projects/<slug>/inputs/` (`inputs/music/…`, `inputs/assets/…`)
+sont copiés dans `media/` au lancement de `fetch_sources.py` ; utiliser ces chemins (`music/…`) dans `timeline.json`.
 Si YouTube bloque (« Sign in to confirm you're not a bot ») : réessayer une fois, puis passer à une autre source
 (archive.org, Commons…) ou demander à l'utilisateur de déposer le fichier dans `projects/<slug>/media/sources/`
 ou un fichier cookies (`YTDLP_COOKIES=/chemin/cookies.txt`). Ne pas bloquer tout le film pour une source.

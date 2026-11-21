@@ -6,7 +6,12 @@
 - **Public** : 18-45 ans, curieux d'économie et de faits divers d'entreprise ; aucune connaissance technique requise.
 - **Voix** : `fr-FR-HenriNeural` (grave, posée), débit -4 %.
 - **Style** : étalonnage `cinematic`, `archive` pour les images 2014-2015, couleur d'accent `#E8B04B`, sous-titres incrustés.
-- **Musique** : tension sourde, libre de droits (YouTube Audio Library / Pixabay), à déposer dans `media/music/`. S'il n'y en a pas, rendre le film sans musique et le signaler.
+- **Musique** : piste Epidemic Sound choisie par l'utilisateur
+  (https://www.epidemicsound.com/fr/music/tracks/5a2536b3-2ec2-4b9b-bc45-00abbf620352/), fournie dans
+  `inputs/music/` (copiée vers `media/music/` par `fetch_sources.py`). Dans `timeline.json` :
+  `"music": {"src": "music/<nom du fichier>.mp3", "volume": 0.22}`. Ne pas la télécharger depuis le site (il faut un compte).
+  Si le dossier est vide, rendre le film sans musique et le signaler. Rappeler à l'utilisateur que sa chaîne YouTube doit
+  être déclarée dans son compte Epidemic Sound pour éviter les réclamations Content ID.
 
 ## Angle (la question du film)
 **Comment trois chercheurs d'une petite université de Virginie-Occidentale, avec 70 000 dollars de budget, ont fait
