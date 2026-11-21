@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+projects/*/media/
+projects/*/build/
+projects/*/out/
+projects/_test/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+!delivery/**/*.mp4
