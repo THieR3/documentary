@@ -20,12 +20,26 @@ const opt = (name, def) => {
   return i >= 0 ? rest[i + 1] : def;
 };
 
+// Use a local Chrome when the Remotion download host is unreachable (e.g. preinstalled Playwright headless shell).
+const localBrowser =
+  process.env.REMOTION_BROWSER ||
+  ["/opt/pw-browsers/chromium_headless_shell", "/opt/pw-browsers/chromium"].find((p) => fs.existsSync(p)) ||
+  null;
+// Wrapper re-enables HTTPS_PROXY inside Chrome (Remotion passes --no-proxy-server), needed for Google Fonts.
+let browserExecutable = null;
+if (localBrowser) {
+  process.env.REMOTION_REAL_BROWSER = localBrowser;
+  browserExecutable = path.join(here, "chrome-wrapper.sh");
+  console.log(`[browser] ${localBrowser} (via chrome-wrapper.sh)`);
+}
+const chromiumOptions = { gl: "swangle" };
+
 const inputProps = JSON.parse(fs.readFileSync(propsPath, "utf8"));
 fs.mkdirSync(outDir, { recursive: true });
 
 console.log(`[bundle] public dir = ${mediaDir}`);
 const serveUrl = await bundle({ entryPoint: path.join(here, "src", "index.ts"), publicDir: path.resolve(mediaDir) });
-const composition = await selectComposition({ serveUrl, id: "Documentary", inputProps });
+const composition = await selectComposition({ serveUrl, id: "Documentary", inputProps, browserExecutable, chromiumOptions });
 const scale = Number(opt("scale", mode === "stills" ? "0.5" : "1"));
 const concurrency = Number(opt("concurrency", String(Math.max(1, Math.floor(os.cpus().length * 0.75)))));
 
@@ -39,7 +53,7 @@ if (mode === "stills") {
     : inputProps.segments.map((s) => Math.min(inputProps.totalFrames - 1, s.startFrame + Math.floor(s.durationFrames * 0.6)));
   for (const f of list) {
     const output = path.join(outDir, `f${String(f).padStart(6, "0")}.jpg`);
-    await renderStill({ composition, serveUrl, inputProps, frame: f, output, scale, imageFormat: "jpeg", jpegQuality: 80 });
+    await renderStill({ composition, serveUrl, inputProps, frame: f, output, scale, imageFormat: "jpeg", jpegQuality: 80, browserExecutable, chromiumOptions });
     console.log(`[still] ${output}`);
   }
   process.exit(0);
@@ -73,6 +87,8 @@ if (mode === "chunks") {
       outputLocation: out,
       scale,
       concurrency,
+      browserExecutable,
+      chromiumOptions,
       onProgress: ({ progress }) => {
         const pct = Math.floor(progress * 100);
         if (pct % 10 === 0 && pct !== last) {

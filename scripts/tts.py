@@ -28,7 +28,9 @@ from common import load_json, probe, project_dir, save_json  # noqa: E402
 async def edge_tts(text: str, voice: str, rate: str, pitch: str, out: Path) -> list[dict]:
     import edge_tts  # type: ignore
 
-    com = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, boundary="WordBoundary")
+    # aiohttp ignores HTTPS_PROXY by default; sandboxes like Claude Code cloud only reach the Internet through it.
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
+    com = edge_tts.Communicate(text, voice, rate=rate, pitch=pitch, boundary="WordBoundary", proxy=proxy)
     words = []
     with open(out, "wb") as fh:
         async for chunk in com.stream():
