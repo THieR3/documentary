@@ -39,6 +39,10 @@ Ordre de préférence (droits) — voir `references/sources-et-droits.md` :
 [{"id": "ina_1969", "url": "https://…", "title": "Journal télévisé du 21/07/1969", "credit": "Archives : INA",
   "license": "extrait – citation", "lang": "fr", "section": {"start": "00:02:00", "end": "00:09:30"}}]
 ```
+`url` peut être une recherche `"ytsearch1:mots clés"` quand on n'a pas encore le lien exact : `fetch_sources.py`
+affiche alors le titre/la chaîne réellement téléchargés (`resolvedTitle`, `resolvedChannel` dans l'index) —
+**vérifier que c'est bien la bonne vidéo**, sinon corriger la requête ou mettre l'URL exacte, et supprimer le fichier
+dans `media/sources/` avant de relancer.
 `section` (optionnel) ne télécharge qu'une partie d'une longue vidéo. `file` (au lieu de `url`) pour un fichier
 déjà présent dans le projet. `credit` est le texte affiché en haut à droite quand l'extrait passe à l'écran.
 

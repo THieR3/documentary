@@ -133,7 +133,9 @@ def write_extras(proj: Path, props: dict) -> None:
     cred = ["Sources et images d'archives :"]
     for v in idx.values():
         if v.get("path") in used:
-            cred.append(f"- {v.get('title', v.get('id'))} — {v.get('credit', '')} ({v.get('license', 'licence à vérifier')}) {v.get('url', '')}".rstrip())
+            url = v.get("resolvedUrl") or ("" if str(v.get("url", "")).startswith("ytsearch") else v.get("url", ""))
+            title = v.get("resolvedTitle") or v.get("title", v.get("id"))
+            cred.append(f"- {title} — {v.get('credit', '')} ({v.get('license', 'licence à vérifier')}) {url}".rstrip())
     (out / "credits.txt").write_text("\n".join(cred) + "\n", encoding="utf-8")
 
 

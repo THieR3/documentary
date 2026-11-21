@@ -38,6 +38,8 @@ def download(src: dict, dest: Path, subs_dir: Path) -> None:
         "--convert-subs", "srt",
         "-o", str(dest.with_suffix("")) + ".%(ext)s",
         "-P", f"subtitle:{subs_dir}",
+        # record what was actually downloaded (essential for "ytsearch1:" candidates and for the credits)
+        "--print-to-file", "%(webpage_url)s\t%(title)s\t%(channel)s\t%(upload_date)s\t%(duration)s", str(subs_dir / f"{dest.stem}.resolved.tsv"),
     ]
     if src.get("section"):
         sec = src["section"]
@@ -213,8 +215,15 @@ def main() -> None:
         )
         save_json(bdir / f"{sid}.transcript.json", transcript)
 
+        resolved = {}
+        rf = bdir / f"{sid}.resolved.tsv"
+        if rf.exists():
+            parts = rf.read_text(encoding="utf-8").strip().splitlines()[-1].split("\t")
+            resolved = dict(zip(["resolvedUrl", "resolvedTitle", "resolvedChannel", "uploadDate", "sourceDuration"], parts))
+            print(f"  -> {resolved.get('resolvedTitle')} | {resolved.get('resolvedChannel')} | {resolved.get('resolvedUrl')}")
         index[sid] = {
             **{k: v for k, v in src.items() if k not in ("file",)},
+            **resolved,
             "path": f"sources/{dest.name}",
             **meta,
             "shots": len(shots),
