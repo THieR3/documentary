@@ -1,15 +1,15 @@
 [
   {
     "id": "epa_announcement",
-    "url": "ytsearch1:EPA Volkswagen notice of violation September 18 2015 press conference",
+    "url": "https://www.youtube.com/watch?v=-kEyarUKoZg",
     "title": "Annonce de l'EPA (18/09/2015)",
-    "credit": "Archives : EPA / presse US",
+    "credit": "Archives : CNN",
     "license": "à vérifier (conférence de presse officielle)",
     "lang": "en"
   },
   {
     "id": "horn_screwed_up",
-    "url": "ytsearch1:Michael Horn \"we have totally screwed up\" Volkswagen Passat launch Brooklyn 2015",
+    "url": "https://www.youtube.com/watch?v=8egLAWsKZMQ",
     "title": "Michael Horn, lancement de la Passat (21/09/2015)",
     "credit": "Archives : Volkswagen of America",
     "license": "extrait – citation",
@@ -17,39 +17,39 @@
   },
   {
     "id": "horn_hearing",
-    "url": "ytsearch1:Michael Horn Volkswagen testimony House Energy and Commerce hearing October 8 2015",
+    "url": "https://www.youtube.com/watch?v=YdJAfqo6_s0",
     "title": "Audition de Michael Horn au Congrès (08/10/2015)",
-    "credit": "Archives : Chambre des représentants US",
+    "credit": "Archives : PBS NewsHour / Chambre des représentants US",
     "license": "domaine public (audition du Congrès) – à vérifier",
     "lang": "en"
   },
   {
     "id": "winterkorn_apology",
-    "url": "ytsearch1:Martin Winterkorn statement video apology Volkswagen September 2015",
+    "url": "https://www.youtube.com/watch?v=Q2eT_cRNrCI",
     "title": "Déclaration vidéo de Martin Winterkorn (22/09/2015)",
-    "credit": "Archives : Volkswagen AG",
+    "credit": "Archives : Volkswagen AG (Presseportal)",
     "license": "extrait – citation",
     "lang": "de"
   },
   {
     "id": "wvu_researchers",
-    "url": "ytsearch1:West Virginia University researchers Volkswagen emissions CAFEE how they caught VW",
+    "url": "https://www.youtube.com/watch?v=imBAzbGXtdM",
     "title": "Les chercheurs de WVU racontent la découverte",
-    "credit": "Archives : West Virginia University",
+    "credit": "Archives : West Virginia University (CAFEE)",
     "license": "extrait – citation",
     "lang": "en"
   },
   {
     "id": "defeat_device_explained",
-    "url": "ytsearch1:how Volkswagen defeat device worked emissions test explained",
+    "url": "https://www.youtube.com/watch?v=CQ4irwe3ZDk",
     "title": "Explication du defeat device",
-    "credit": "Extrait : (chaîne à préciser)",
+    "credit": "Extrait : The Verge",
     "license": "extrait – citation",
     "lang": "en"
   },
   {
     "id": "clean_diesel_ads",
-    "url": "ytsearch1:Volkswagen TDI Clean Diesel commercial 2015 Old Wives Tales",
+    "url": "https://www.youtube.com/watch?v=pDI0jFZRnLU",
     "title": "Publicités « Clean Diesel » de VW",
     "credit": "Archives : publicité Volkswagen",
     "license": "extrait – citation",
@@ -57,33 +57,65 @@
   },
   {
     "id": "news_report_fr",
-    "url": "ytsearch1:scandale Volkswagen moteurs truqués reportage 2015",
+    "url": "https://www.youtube.com/watch?v=TfMd5E_zKrE",
     "title": "Reportage TV français (2015)",
-    "credit": "Extrait : (chaîne à préciser)",
+    "credit": "Extrait : ARTE (Big Flops)",
     "license": "extrait – citation",
     "lang": "fr"
   },
   {
     "id": "news_report_de",
-    "url": "ytsearch1:VW Abgasskandal Dokumentation Wolfsburg",
+    "url": "https://www.youtube.com/watch?v=zRQpkATrvKE",
     "title": "Documentaire allemand sur le scandale",
-    "credit": "Extrait : (chaîne à préciser)",
+    "credit": "Extrait : NDR Doku",
     "license": "extrait – citation",
     "lang": "de"
   },
   {
     "id": "schmidt_sentencing",
-    "url": "ytsearch1:Oliver Schmidt Volkswagen sentenced 7 years news 2017",
+    "url": "https://www.youtube.com/watch?v=_QHk5hS8XN4",
     "title": "Condamnation d'Oliver Schmidt (2017)",
-    "credit": "Extrait : (chaîne à préciser)",
+    "credit": "Extrait : Associated Press",
     "license": "extrait – citation",
     "lang": "en"
   },
   {
     "id": "vw_ev_pivot",
-    "url": "ytsearch1:Volkswagen ID.3 world premiere Frankfurt 2019",
+    "url": "https://www.youtube.com/watch?v=u_dEmcXCCbc",
     "title": "VW mise tout sur l'électrique (ID.3, 2019)",
-    "credit": "Archives : Volkswagen AG",
+    "credit": "Extrait : EV Nation",
+    "license": "extrait – citation",
+    "lang": "en"
+  },
+  {
+    "id": "wvu_news",
+    "url": "https://www.youtube.com/watch?v=0V-kzHKUuIY",
+    "title": "WVU : la recherche qui a révélé le scandale",
+    "credit": "Archives : West Virginia University",
+    "license": "extrait – citation",
+    "lang": "en"
+  },
+  {
+    "id": "clean_diesel_ads_2",
+    "url": "https://www.youtube.com/watch?v=Px5QFmPlh6g",
+    "title": "Publicité « Old Wives' Tale » Passat TDI (2015)",
+    "credit": "Archives : publicité Volkswagen",
+    "license": "extrait – citation",
+    "lang": "en"
+  },
+  {
+    "id": "stock_plunge",
+    "url": "https://www.youtube.com/watch?v=1rmOj9HkJTI",
+    "title": "L'action VW s'effondre (septembre 2015)",
+    "credit": "Archives : AP Archive",
+    "license": "extrait – citation",
+    "lang": "en"
+  },
+  {
+    "id": "wolfsburg_factory",
+    "url": "https://www.youtube.com/watch?v=m-WU1QniTPM",
+    "title": "L'usine de Wolfsburg vue du ciel",
+    "credit": "Extrait : The Wheel Network",
     "license": "extrait – citation",
     "lang": "en"
   }
