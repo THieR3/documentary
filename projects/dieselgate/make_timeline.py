@@ -64,10 +64,10 @@ cold_open = [
          visual=V("horn_screwed_up", 33.1, "zoom-in", **ARCH)),
     seg("Cet homme, c'est le patron de Volkswagen aux États-Unis. Ce soir-là, il devait présenter la nouvelle Passat. "
         "Trois jours plus tôt, l'agence américaine de l'environnement a révélé qu'un logiciel caché trompait les contrôles anti-pollution.",
-        [V("horn_screwed_up", 70, "pan-right", **ARCH), ndr("40:35"), V("defeat_device_explained", "01:20.5", "drift", dur=3.5)],
+        [V("horn_screwed_up", 70, "pan-right", **ARCH), V("epa_announcement", "00:05", "zoom-in", **ARCH), V("defeat_device_explained", "01:19.3", "drift", dur=2.2)],
         transition="fade"),
     seg("Onze millions de voitures dans le monde. Plus de trente milliards d'euros de pénalités. Des dirigeants en prison.",
-        [V("news_report_fr", "03:32", "zoom-in"), V("stock_plunge", "00:43", "zoom-in", **ARCH), V("wolfsburg_factory", "00:42", "drift")]),
+        [V("news_report_fr", "03:32", "zoom-in"), V("stock_plunge", "00:45.7", "zoom-in", **ARCH), V("wolfsburg_factory", "00:42", "drift")]),
     seg("Et au départ de tout ça, il n'y a ni enquête de police, ni lanceur d'alerte. "
         "Il y a trois voitures, une petite équipe de chercheurs, et un budget de soixante-dix mille dollars.",
         [V("wvu_news", "00:51.3", "zoom-in", dur=2.6, **ARCH), ndr("22:32"), V("wvu_news", "00:42.3", "pan-left", dur=3.4, **ARCH)]),
@@ -79,7 +79,7 @@ cold_open = [
 ]
 
 ch1 = [
-    chapter(1, "Le pari du « Clean Diesel »", ndr("07:36")),
+    chapter(1, "Le pari du Clean Diesel", ndr("07:36")),
     seg("Wolfsburg, en Basse-Saxe. Une ville construite autour d'une usine, et une usine grande comme une ville. "
         "C'est ici que bat le cœur de Volkswagen.",
         [V("wolfsburg_factory", "00:15", "drift"), V("wolfsburg_factory", "01:06", "pan-left"), ndr("07:40", "pan-right", grade="archive")],
@@ -93,8 +93,7 @@ ch1 = [
         [ndr("00:22", "drift"), V("stock_plunge", "00:03", "zoom-in", **ARCH), V("stock_plunge", "00:08", "pan-right", **ARCH)]),
     seg("Sa carte maîtresse, c'est le diesel. Un moteur sobre et puissant, que l'Europe adore. Volkswagen le vend aux Américains "
         "comme une alternative écologique à l'hybride : le « Clean Diesel », le diesel propre.",
-        [V("defeat_device_explained", "01:09.3", "zoom-in", dur=2.6), V("defeat_device_explained", "00:17.2", "drift", dur=2.0),
-         V("clean_diesel_ads_2", "00:27.2", "static", dur=2.6), ndr("29:41", "drift")]),
+        [V("defeat_device_explained", "01:09.3", "zoom-in", dur=2.6),          V("clean_diesel_ads_2", "00:27.2", "static", dur=2.6), ndr("29:41", "drift")]),
     seg("Les publicités s'enchaînent. Dans l'une d'elles, trois dames âgées se disputent dans une Golf.",
         [V("clean_diesel_ads", "00:02.2", "zoom-in", dur=2.0), V("clean_diesel_ads", "00:04.2", "drift")]),
     bite("clean_diesel_ads", 11.6, 14.4, "Ça, c'était avant. On est en 2015 !", visual=V("clean_diesel_ads", 11.6, "static")),
@@ -107,7 +106,7 @@ ch1 = [
         [date("2009", 0.6, 2.5)]),
     seg("Mais il y a un problème, et à Wolfsburg, les ingénieurs le connaissent depuis le début. Les normes américaines sur les oxydes "
         "d'azote, les NOx, sont parmi les plus sévères au monde. Ces gaz irritent les poumons, et forment le smog des grandes villes.",
-        [ndr("09:07", "drift"), V("defeat_device_explained", "01:56.3", "zoom-in", dur=2.8), ndr("14:25", "pan-right"), ndr("02:52")]),
+        [ndr("09:07", "drift"), V("defeat_device_explained", "01:56.3", "zoom-in", dur=2.8), ndr("14:25", "pan-right"), ndr("02:42")]),
     seg("Pour les respecter, il faut un système de dépollution coûteux et encombrant, qui consomme du carburant ou un additif. "
         "La voiture devient plus chère, et moins sobre. Exactement l'inverse de la promesse.",
         [V("defeat_device_explained", "00:24.3", "zoom-in", dur=3.5), V("defeat_device_explained", "00:28.3", "pan-left", dur=2.0), ndr("03:17", "drift")]),
@@ -131,7 +130,7 @@ ch2 = [
         [stat(70000, "budget de l'étude", suffix=" $", position="right", at=2.0, dur=3.8)]),
     seg("Il est remporté par un petit laboratoire de l'université de Virginie-Occidentale, à Morgantown : le CAFEE. "
         "Ses chercheurs travaillent d'habitude sur les moteurs de camions.",
-        [V("wvu_news", "00:33", "pan-left", **ARCH), V("wvu_researchers", "05:51", "zoom-in"), ndr("18:15", "drift")],
+        [V("wvu_news", "00:33", "pan-left", **ARCH), V("wvu_researchers", "05:51", "zoom-in"), V("wvu_researchers", "04:30", "drift")],
         [lt("Morgantown", "Université de Virginie-Occidentale (WVU)", 0.8, 3.5)]),
     seg("L'équipe se procure trois voitures : une Jetta, une Passat, et un BMW X5. Dans le coffre, elle installe un appareil de mesure "
         "portable, alimenté par un générateur. Un tuyau relie le pot d'échappement à ce laboratoire roulant.",
@@ -145,18 +144,18 @@ ch2 = [
          visual=V("wvu_researchers", 422.9, "zoom-in")),
     seg("Pendant ce temps, un autre membre de l'équipe teste les mêmes voitures en laboratoire, sur un banc à rouleaux du CARB, "
         "l'agence californienne de l'air. Là, tout est parfait : les émissions sont quasi nulles.",
-        [ndr("27:33", "drift"), ndr("18:50", "zoom-in"), ndr("23:20", "drift")]),
-    seg("Mais sur la route, les courbes s'envolent.", [ndr("32:41", "zoom-in")]),
+        [ndr("27:33", "drift"), ndr("23:20", "drift")]),
+    seg("Mais sur la route, les courbes s'envolent.", [ndr("32:38", "zoom-in")]),
     bite("wvu_researchers", 666.7, 679.8,
          "Quand je l'ai rejoint pour les essais sur route en Californie, je lui ai demandé : on ne voit pas cette tendance proche de zéro "
          "que tu observes. Est-ce qu'on fait quelque chose de travers ?",
          visual=V("wvu_researchers", 666.7, "zoom-out")),
     seg("Les chercheurs pensent d'abord à une erreur. Ils vérifient leurs appareils. Ils refont les mesures. Encore. Et encore. "
         "Le résultat ne change pas.",
-        [ndr("23:02", "drift"), V("wvu_researchers", "10:00", "zoom-in"), ndr("32:45", "pan-left"), ndr("33:01", "drift")]),
+        [ndr("23:02", "drift"), V("wvu_researchers", "10:00", "zoom-in"), ndr("32:43.2", "pan-left", dur=3.2), ndr("32:47", "drift")]),
     seg("Sur la route, la Jetta rejette jusqu'à trente-cinq fois la limite américaine d'oxydes d'azote. La Passat, jusqu'à vingt fois. "
         "La BMW, elle, reste dans les clous.",
-        [V("defeat_device_explained", "01:24.3", "drift", dur=3.6,
+        [V("stock_plunge", "00:39.7", "zoom-in", dur=3.6, **ARCH,
            overlays=[stat(35, "la limite de NOx · Jetta", prefix="× ", position="center", at=0.4, dur=3.8)]),
          V("clean_diesel_ads_2", "00:02.2", "zoom-in",
            overlays=[stat(20, "la limite de NOx · Passat", prefix="× ", position="right", at=0.3, dur=3.2)]),
@@ -180,22 +179,21 @@ ch3 = [
         [lt("Stanley Young", "Agence californienne de l'air (CARB)", 0.6, 3.5)]),
     seg("En décembre deux-mille-quatorze, le constructeur lance un rappel pour mettre à jour le logiciel de près d'un demi-million "
         "de voitures. Les nouveaux tests ne montrent quasiment aucune amélioration.",
-        [V("stock_plunge", "00:31", "zoom-in", **ARCH), ndr("29:22", "zoom-in"), ndr("31:25", "drift")],
+        [V("stock_plunge", "00:31", "zoom-in", **ARCH), ndr("31:25", "drift")],
         [date("DÉCEMBRE 2014", 0.6, 2.8)]),
     seg("Pire : selon les enquêteurs, cette mise à jour a servi à perfectionner la triche.",
-        [ndr("31:47", "drift"), ndr("31:17", "zoom-in")],
-        [lt("Thorsten Holz", "Expert en sécurité informatique, université de Bochum", 0.5, 3.2)]),
+        [ndr("31:47", "drift"), ndr("31:17", "zoom-in")]),
     seg("Car la vérité est dans le code. Le calculateur du moteur surveille des dizaines de paramètres : la vitesse, "
         "la durée de fonctionnement, la pression de l'air. Et surtout, la position du volant.",
         [ndr("32:05", "drift"), V("defeat_device_explained", "00:19.3", "zoom-in"), V("defeat_device_explained", "01:45.3", "static")]),
     seg("Sur un banc d'essai, personne ne tourne le volant. Le logiciel en déduit qu'il est testé, et active la dépollution à plein "
         "régime. Sur la route, il la réduit. La voiture peut alors polluer jusqu'à quarante fois plus.",
-        [ndr("32:20", "zoom-in"), V("defeat_device_explained", "00:33.3", "drift", dur=2.0), V("defeat_device_explained", "00:35.5", "pan-left")],
+        [ndr("32:20", "zoom-in", dur=5.8), V("defeat_device_explained", "00:33.3", "drift", dur=2.0), V("defeat_device_explained", "00:35.5", "pan-left", dur=4.5), ndr("31:20.5", "drift")],
         [{"type": "highlight", "at": 1.2, "dur": 2.6, "box": [28, 20, 44, 55], "label": "« Lenkwinkel » : l'angle du volant",
           "shape": "rect"}]),
     seg("Ce mécanisme a un nom : le « defeat device ». Un dispositif d'invalidation, strictement interdit par la loi américaine "
         "sur la qualité de l'air.",
-        [ndr("33:08", "drift"), V("defeat_device_explained", "01:59.3", "pan-right")]),
+        [ndr("32:55", "drift"), V("defeat_device_explained", "01:59.3", "pan-right")]),
     seg("Pendant plus d'un an, Volkswagen multiplie les explications techniques. Jusqu'à l'été deux-mille-quinze, où les régulateurs "
         "posent un ultimatum : pas d'explication, pas d'homologation pour les diesels de l'année suivante.",
         [ndr("35:21", "drift"), ndr("36:34", "zoom-in"), ndr("36:15", "drift")]),
@@ -225,9 +223,7 @@ ch4 = [
     chapter(4, "L'addition", ndr("41:49")),
     seg("Sur les marchés, la sanction est immédiate. Le lundi 21 septembre, l'action Volkswagen perd près d'un cinquième de sa valeur. "
         "En quelques jours, elle abandonne environ un tiers.",
-        [ndr("41:50", "drift", dur=4.6,
-             overlays=[stat(18.6, "en une séance · 21 septembre 2015", prefix="− ", suffix=" %", decimals=1, position="center",
-                            at=0.4, dur=3.8)]),
+        [ndr("41:42.3", "drift", dur=4.6),
          ndr("41:36", "zoom-in"), V("stock_plunge", "00:25", "drift", **ARCH)]),
     seg("Le 8 octobre, Michael Horn est convoqué devant une commission de la Chambre des représentants.",
         [V("horn_hearing", "00:17.5", "drift", **ARCH), V("horn_hearing", "00:08", "zoom-in", **ARCH)],
@@ -250,18 +246,17 @@ ch4 = [
     seg("Les cadres tombent un à un. James Liang, un ingénieur qui a participé à la conception du logiciel, écope de quarante mois de "
         "prison. Oliver Schmidt, ancien responsable des questions environnementales de Volkswagen aux États-Unis, est arrêté à Miami, "
         "à la fin de ses vacances.",
-        [V("news_report_fr", "03:52", "zoom-in"), V("schmidt_sentencing", "00:03", "zoom-in", **ARCH),
-         V("schmidt_sentencing", "00:27", "zoom-in", **ARCH)]),
+        [ndr("40:31.8", "zoom-in", dur=4.4), V("schmidt_sentencing", "00:03", "zoom-in", dur=7.5, **ARCH), ndr("42:31", "drift")]),
     bite("schmidt_sentencing", 17.8, 25.5,
          "Le juge a donné à Schmidt exactement ce que demandait l'accusation : sept ans de prison. Une peine très, très lourde.",
          overlays=[lt("Oliver Schmidt", "Condamné à 7 ans de prison (décembre 2017)", 0.5, 4)],
-         visual=V("schmidt_sentencing", 17.8, "zoom-in", **ARCH)),
+         visual=V("schmidt_sentencing", 26.5, "zoom-in", **ARCH)),
     seg("En Allemagne, l'ancien patron d'Audi, Rupert Stadler, est condamné en deux-mille-vingt-trois à un an et neuf mois de prison "
         "avec sursis. C'est le premier membre du directoire du groupe à être condamné.",
-        [V("news_report_fr", "04:12", "zoom-in"), ndr("43:31", "drift")]),
+        [V("news_report_fr", "04:11.7", "zoom-in", dur=3.3), ndr("43:28.6", "drift", dur=3.0), ndr("43:21.6", "drift")]),
     seg("Et en deux-mille-dix-huit, le New York Times révèle une autre affaire. Un institut financé par Volkswagen, Daimler et BMW a "
         "exposé dix singes aux gaz d'échappement d'une Beetle diesel. Une Beetle équipée, elle aussi, du logiciel truqué.",
-        [V("stock_plunge", "00:18.5", "zoom-in", **ARCH), V("news_report_fr", "02:50", "zoom-in"), ndr("11:12", "drift")],
+        [V("stock_plunge", "00:18.5", "zoom-in", **ARCH), V("news_report_fr", "02:47.2", "zoom-in", dur=3.8), ndr("11:12", "drift")],
         [date("2018", 0.6, 2.5)]),
     seg("Au total, le scandale a coûté au groupe plus de trente milliards d'euros.",
         [V("wolfsburg_factory", "01:21", "drift",
@@ -275,9 +270,9 @@ conclusion = [
     chapter(5, "Dix ans après", V("vw_ev_pivot", "01:22")),
     seg("Dix ans plus tard, le paysage a changé. En Europe, les voitures sont désormais homologuées avec des tests sur route, "
         "en conditions réelles. Et le diesel s'est effondré dans les ventes de voitures neuves.",
-        [V("defeat_device_explained", "02:10.3", "drift", dur=2.5), ndr("43:40", "drift"), ndr("01:08", "pan-right")]),
+        [V("defeat_device_explained", "02:10.3", "drift", dur=2.5), ndr("01:08", "pan-right")]),
     seg("Volkswagen, lui, a choisi de tourner la page en misant sur l'électrique. En deux-mille-dix-neuf, à Francfort, le groupe "
-        "présente l'ID.3, une voiture pensée comme le symbole d'un nouveau départ.",
+        "présente l'ID 3, une voiture pensée comme le symbole d'un nouveau départ.",
         [V("vw_ev_pivot", "01:25", "drift"), V("vw_ev_pivot", "04:01", "zoom-in"), V("vw_ev_pivot", "05:20", "drift")],
         [date("SEPTEMBRE 2019 · FRANCFORT", 0.6, 3)]),
     seg("Mais le passé n'est pas soldé. En mai deux-mille-vingt-cinq, à Braunschweig, quatre anciens cadres sont reconnus coupables "

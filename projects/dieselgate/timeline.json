@@ -71,16 +71,17 @@
             },
             {
               "type": "video",
-              "source": "news_report_de",
-              "in": "40:35",
-              "motion": "zoom-in"
+              "source": "epa_announcement",
+              "in": "00:05",
+              "motion": "zoom-in",
+              "grade": "archive"
             },
             {
               "type": "video",
               "source": "defeat_device_explained",
-              "in": "01:20.5",
+              "in": "01:19.3",
               "motion": "drift",
-              "dur": 3.5
+              "dur": 2.2
             }
           ],
           "sourceVolume": 0.12,
@@ -98,7 +99,7 @@
             {
               "type": "video",
               "source": "stock_plunge",
-              "in": "00:43",
+              "in": "00:45.7",
               "motion": "zoom-in",
               "grade": "archive"
             },
@@ -177,7 +178,7 @@
           "visual": {
             "type": "chapter",
             "number": 1,
-            "title": "Le pari du « Clean Diesel »",
+            "title": "Le pari du Clean Diesel",
             "bg": {
               "type": "video",
               "source": "news_report_de",
@@ -296,13 +297,6 @@
               "in": "01:09.3",
               "motion": "zoom-in",
               "dur": 2.6
-            },
-            {
-              "type": "video",
-              "source": "defeat_device_explained",
-              "in": "00:17.2",
-              "motion": "drift",
-              "dur": 2.0
             },
             {
               "type": "video",
@@ -450,7 +444,7 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "02:52",
+              "in": "02:42",
               "motion": "zoom-in"
             }
           ],
@@ -638,8 +632,8 @@
             },
             {
               "type": "video",
-              "source": "news_report_de",
-              "in": "18:15",
+              "source": "wvu_researchers",
+              "in": "04:30",
               "motion": "drift"
             }
           ],
@@ -746,12 +740,6 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "18:50",
-              "motion": "zoom-in"
-            },
-            {
-              "type": "video",
-              "source": "news_report_de",
               "in": "23:20",
               "motion": "drift"
             }
@@ -764,7 +752,7 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "32:41",
+              "in": "32:38",
               "motion": "zoom-in"
             }
           ],
@@ -803,13 +791,14 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "32:45",
-              "motion": "pan-left"
+              "in": "32:43.2",
+              "motion": "pan-left",
+              "dur": 3.2
             },
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "33:01",
+              "in": "32:47",
               "motion": "drift"
             }
           ],
@@ -820,10 +809,11 @@
           "shots": [
             {
               "type": "video",
-              "source": "defeat_device_explained",
-              "in": "01:24.3",
-              "motion": "drift",
+              "source": "stock_plunge",
+              "in": "00:39.7",
+              "motion": "zoom-in",
               "dur": 3.6,
+              "grade": "archive",
               "overlays": [
                 {
                   "type": "stat",
@@ -1001,12 +991,6 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "29:22",
-              "motion": "zoom-in"
-            },
-            {
-              "type": "video",
-              "source": "news_report_de",
               "in": "31:25",
               "motion": "drift"
             }
@@ -1037,16 +1021,7 @@
               "motion": "zoom-in"
             }
           ],
-          "sourceVolume": 0.12,
-          "overlays": [
-            {
-              "type": "lowerThird",
-              "at": 0.5,
-              "dur": 3.2,
-              "title": "Thorsten Holz",
-              "subtitle": "Expert en sécurité informatique, université de Bochum"
-            }
-          ]
+          "sourceVolume": 0.12
         },
         {
           "vo": "Car la vérité est dans le code. Le calculateur du moteur surveille des dizaines de paramètres : la vitesse, la durée de fonctionnement, la pression de l'air. Et surtout, la position du volant.",
@@ -1079,7 +1054,8 @@
               "type": "video",
               "source": "news_report_de",
               "in": "32:20",
-              "motion": "zoom-in"
+              "motion": "zoom-in",
+              "dur": 5.8
             },
             {
               "type": "video",
@@ -1092,7 +1068,14 @@
               "type": "video",
               "source": "defeat_device_explained",
               "in": "00:35.5",
-              "motion": "pan-left"
+              "motion": "pan-left",
+              "dur": 4.5
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "31:20.5",
+              "motion": "drift"
             }
           ],
           "sourceVolume": 0.12,
@@ -1118,7 +1101,7 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "33:08",
+              "in": "32:55",
               "motion": "drift"
             },
             {
@@ -1346,22 +1329,9 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "41:50",
+              "in": "41:42.3",
               "motion": "drift",
-              "dur": 4.6,
-              "overlays": [
-                {
-                  "type": "stat",
-                  "at": 0.4,
-                  "dur": 3.8,
-                  "value": 18.6,
-                  "prefix": "− ",
-                  "suffix": " %",
-                  "label": "en une séance · 21 septembre 2015",
-                  "decimals": 1,
-                  "position": "center"
-                }
-              ]
+              "dur": 4.6
             },
             {
               "type": "video",
@@ -1520,23 +1490,24 @@
           "shots": [
             {
               "type": "video",
-              "source": "news_report_fr",
-              "in": "03:52",
-              "motion": "zoom-in"
+              "source": "news_report_de",
+              "in": "40:31.8",
+              "motion": "zoom-in",
+              "dur": 4.4
             },
             {
               "type": "video",
               "source": "schmidt_sentencing",
               "in": "00:03",
               "motion": "zoom-in",
+              "dur": 7.5,
               "grade": "archive"
             },
             {
               "type": "video",
-              "source": "schmidt_sentencing",
-              "in": "00:27",
-              "motion": "zoom-in",
-              "grade": "archive"
+              "source": "news_report_de",
+              "in": "42:31",
+              "motion": "drift"
             }
           ],
           "sourceVolume": 0.12
@@ -1561,7 +1532,7 @@
           "visual": {
             "type": "video",
             "source": "schmidt_sentencing",
-            "in": 17.8,
+            "in": 26.5,
             "motion": "zoom-in",
             "grade": "archive"
           }
@@ -1572,13 +1543,21 @@
             {
               "type": "video",
               "source": "news_report_fr",
-              "in": "04:12",
-              "motion": "zoom-in"
+              "in": "04:11.7",
+              "motion": "zoom-in",
+              "dur": 3.3
             },
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "43:31",
+              "in": "43:28.6",
+              "motion": "drift",
+              "dur": 3.0
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "43:21.6",
               "motion": "drift"
             }
           ],
@@ -1597,8 +1576,9 @@
             {
               "type": "video",
               "source": "news_report_fr",
-              "in": "02:50",
-              "motion": "zoom-in"
+              "in": "02:47.2",
+              "motion": "zoom-in",
+              "dur": 3.8
             },
             {
               "type": "video",
@@ -1698,12 +1678,6 @@
             {
               "type": "video",
               "source": "news_report_de",
-              "in": "43:40",
-              "motion": "drift"
-            },
-            {
-              "type": "video",
-              "source": "news_report_de",
               "in": "01:08",
               "motion": "pan-right"
             }
@@ -1711,7 +1685,7 @@
           "sourceVolume": 0.12
         },
         {
-          "vo": "Volkswagen, lui, a choisi de tourner la page en misant sur l'électrique. En deux-mille-dix-neuf, à Francfort, le groupe présente l'ID.3, une voiture pensée comme le symbole d'un nouveau départ.",
+          "vo": "Volkswagen, lui, a choisi de tourner la page en misant sur l'électrique. En deux-mille-dix-neuf, à Francfort, le groupe présente l'ID 3, une voiture pensée comme le symbole d'un nouveau départ.",
           "shots": [
             {
               "type": "video",

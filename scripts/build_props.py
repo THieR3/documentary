@@ -165,7 +165,7 @@ class Builder:
                 self.footage_sec += sdur
             else:
                 self.card_sec += sdur
-            ov = self.overlays({**seg, "_id": sid, "overlays": seg.get("overlays", []) if k == 0 else shot.get("overlays", [])}, df, credit if k == 0 or shot.get("source") != shots[k - 1].get("source") else None)
+            ov = self.overlays({**seg, "_id": sid, "overlays": (seg.get("overlays", []) + shot.get("overlays", [])) if k == 0 else shot.get("overlays", [])}, df, credit if k == 0 or shot.get("source") != shots[k - 1].get("source") else None)
             self.segments.append({"id": f"{sid}_{k}", "startFrame": self.cursor, "durationFrames": df, "transition": trans, "transitionFrames": tdur, "visual": visual, "overlays": ov})
             self.cursor += df
 
