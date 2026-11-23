@@ -1,0 +1,1853 @@
+{
+  "meta": {
+    "title": "Le mensonge de Volkswagen",
+    "lang": "fr",
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "voice": {
+      "engine": "edge",
+      "name": "fr-FR-HenriNeural",
+      "rate": "-4%"
+    },
+    "music": {
+      "src": "music/dieselgate_theme_loop.mp3",
+      "volume": 0.22
+    },
+    "captions": true,
+    "grade": "cinematic",
+    "style": {
+      "accent": "#E8B04B",
+      "text": "#F5F1E8",
+      "headingFont": "PlayfairDisplay",
+      "grain": 0.35,
+      "vignette": 0.5
+    }
+  },
+  "chapters": [
+    {
+      "title": "Cold open",
+      "segments": [
+        {
+          "bite": {
+            "source": "horn_screwed_up",
+            "in": 33.1,
+            "out": 46.3,
+            "volume": 1.0,
+            "subtitle": "Soyons clairs. Notre entreprise a été malhonnête avec l'EPA, avec l'agence californienne de l'air, et avec vous tous. Pour le dire à l'allemande : on a complètement merdé."
+          },
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.4,
+              "dur": 3.2,
+              "text": "21 SEPTEMBRE 2015 · BROOKLYN"
+            },
+            {
+              "type": "lowerThird",
+              "at": 4.0,
+              "dur": 4,
+              "title": "Michael Horn",
+              "subtitle": "PDG de Volkswagen of America"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "horn_screwed_up",
+            "in": 33.1,
+            "motion": "zoom-in",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "Cet homme, c'est le patron de Volkswagen aux États-Unis. Ce soir-là, il devait présenter la nouvelle Passat. Trois jours plus tôt, l'agence américaine de l'environnement a révélé qu'un logiciel caché trompait les contrôles anti-pollution.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "horn_screwed_up",
+              "in": 70,
+              "motion": "pan-right",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "40:35",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:20.5",
+              "motion": "drift",
+              "dur": 3.5
+            }
+          ],
+          "sourceVolume": 0.12,
+          "transition": "fade"
+        },
+        {
+          "vo": "Onze millions de voitures dans le monde. Plus de trente milliards d'euros de pénalités. Des dirigeants en prison.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_fr",
+              "in": "03:32",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:43",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "00:42",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Et au départ de tout ça, il n'y a ni enquête de police, ni lanceur d'alerte. Il y a trois voitures, une petite équipe de chercheurs, et un budget de soixante-dix mille dollars.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wvu_news",
+              "in": "00:51.3",
+              "motion": "zoom-in",
+              "dur": 2.6,
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:32",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "wvu_news",
+              "in": "00:42.3",
+              "motion": "pan-left",
+              "dur": 3.4,
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Comment un laboratoire de Virginie-Occidentale a-t-il fait tomber le plus grand constructeur automobile du monde ?",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "00:55",
+              "motion": "zoom-in",
+              "letterbox": true
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "duration": 5,
+          "transition": "fade",
+          "visual": {
+            "type": "title",
+            "title": "Le mensonge de Volkswagen",
+            "subtitle": "Dieselgate : l'enquête",
+            "bg": {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "01:33"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "title": "Le pari du Clean Diesel",
+      "segments": [
+        {
+          "duration": 3.6,
+          "transition": "dip",
+          "visual": {
+            "type": "chapter",
+            "number": 1,
+            "title": "Le pari du « Clean Diesel »",
+            "bg": {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "07:36",
+              "motion": "zoom-in"
+            }
+          }
+        },
+        {
+          "vo": "Wolfsburg, en Basse-Saxe. Une ville construite autour d'une usine, et une usine grande comme une ville. C'est ici que bat le cœur de Volkswagen.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "00:15",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "01:06",
+              "motion": "pan-left"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "07:40",
+              "motion": "pan-right",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.8,
+              "dur": 3.5,
+              "title": "Wolfsburg",
+              "subtitle": "Siège de Volkswagen, Allemagne"
+            }
+          ]
+        },
+        {
+          "vo": "En deux-mille-sept, un nouveau patron prend les commandes : Martin Winterkorn. Un ingénieur perfectionniste, réputé connaître chaque vis de chaque voiture. Il fixe un cap : faire de Volkswagen le numéro un mondial avant deux-mille-dix-huit. Devant Toyota. Devant General Motors.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "06:32",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "16:17",
+              "motion": "zoom-in",
+              "dur": 2.8
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "23:53",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "08:12",
+              "motion": "pan-left"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.8,
+              "dur": 4,
+              "title": "Martin Winterkorn",
+              "subtitle": "PDG du groupe Volkswagen (2007-2015)"
+            }
+          ]
+        },
+        {
+          "vo": "Pour y arriver, il lui manque un marché : les États-Unis. Les Américains boudent la marque. Volkswagen y vend peu, et cher.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "00:22",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:03",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:08",
+              "motion": "pan-right",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Sa carte maîtresse, c'est le diesel. Un moteur sobre et puissant, que l'Europe adore. Volkswagen le vend aux Américains comme une alternative écologique à l'hybride : le « Clean Diesel », le diesel propre.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:09.3",
+              "motion": "zoom-in",
+              "dur": 2.6
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:17.2",
+              "motion": "drift",
+              "dur": 2.0
+            },
+            {
+              "type": "video",
+              "source": "clean_diesel_ads_2",
+              "in": "00:27.2",
+              "motion": "static",
+              "dur": 2.6
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "29:41",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Les publicités s'enchaînent. Dans l'une d'elles, trois dames âgées se disputent dans une Golf.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "clean_diesel_ads",
+              "in": "00:02.2",
+              "motion": "zoom-in",
+              "dur": 2.0
+            },
+            {
+              "type": "video",
+              "source": "clean_diesel_ads",
+              "in": "00:04.2",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "clean_diesel_ads",
+            "in": 11.6,
+            "out": 14.4,
+            "volume": 1.0,
+            "subtitle": "Ça, c'était avant. On est en 2015 !"
+          },
+          "visual": {
+            "type": "video",
+            "source": "clean_diesel_ads",
+            "in": 11.6,
+            "motion": "static"
+          }
+        },
+        {
+          "vo": "Pour le prouver, l'une d'elles frotte une écharpe blanche contre le pot d'échappement. L'écharpe ressort immaculée.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "clean_diesel_ads",
+              "in": "00:22.1",
+              "motion": "zoom-in",
+              "dur": 2.8
+            },
+            {
+              "type": "video",
+              "source": "clean_diesel_ads",
+              "in": "00:25.1",
+              "motion": "static",
+              "dur": 1.9
+            },
+            {
+              "type": "video",
+              "source": "clean_diesel_ads",
+              "in": "00:27.0",
+              "motion": "static",
+              "dur": 1.6
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "14:44",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Le pari marche. En deux-mille-neuf, la Jetta TDI est élue voiture verte de l'année aux États-Unis. Des centaines de milliers d'Américains achètent un diesel Volkswagen en pensant faire un geste pour la planète.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "16:36",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "15:10",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "15:52",
+              "motion": "pan-left"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "15:30",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.5,
+              "text": "2009"
+            }
+          ]
+        },
+        {
+          "vo": "Mais il y a un problème, et à Wolfsburg, les ingénieurs le connaissent depuis le début. Les normes américaines sur les oxydes d'azote, les NOx, sont parmi les plus sévères au monde. Ces gaz irritent les poumons, et forment le smog des grandes villes.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "09:07",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:56.3",
+              "motion": "zoom-in",
+              "dur": 2.8
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "14:25",
+              "motion": "pan-right"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "02:52",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Pour les respecter, il faut un système de dépollution coûteux et encombrant, qui consomme du carburant ou un additif. La voiture devient plus chère, et moins sobre. Exactement l'inverse de la promesse.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:24.3",
+              "motion": "zoom-in",
+              "dur": 3.5
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:28.3",
+              "motion": "pan-left",
+              "dur": 2.0
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "03:17",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Alors, dès la fin de l'année deux-mille-six, des ingénieurs du groupe choisissent une autre voie. Une solution simple, bon marché, et invisible.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "02:17",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "03:40",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "04:20",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.8,
+              "text": "NOVEMBRE 2006"
+            }
+          ]
+        },
+        {
+          "vo": "Une solution qui va tenir près de dix ans. Jusqu'à ce qu'elle croise la route d'une université de Virginie-Occidentale.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "05:27",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:15",
+              "motion": "pan-right",
+              "letterbox": true
+            }
+          ],
+          "sourceVolume": 0.12
+        }
+      ]
+    },
+    {
+      "title": "Le test de Morgantown",
+      "segments": [
+        {
+          "duration": 3.6,
+          "transition": "dip",
+          "visual": {
+            "type": "chapter",
+            "number": 2,
+            "title": "Le test de Morgantown",
+            "bg": {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:18",
+              "motion": "zoom-in"
+            }
+          }
+        },
+        {
+          "vo": "Deux-mille-treize. L'ICCT, une organisation qui milite pour des transports moins polluants, veut comparer les diesels vendus en Europe et aux États-Unis. Son raisonnement : si les modèles américains sont propres, l'Europe peut faire mieux.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:30.3",
+              "motion": "drift",
+              "dur": 2.8
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "33:43",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "02:07.2",
+              "motion": "drift",
+              "dur": 2.8
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.5,
+              "text": "2013"
+            }
+          ]
+        },
+        {
+          "vo": "Pour mesurer les émissions en conditions réelles, elle lance un appel d'offres. Le contrat est minuscule : soixante-dix mille dollars.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wvu_news",
+              "in": "00:46.3",
+              "motion": "zoom-in",
+              "dur": 3.5,
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "06:30",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "stat",
+              "at": 2.0,
+              "dur": 3.8,
+              "value": 70000,
+              "prefix": "",
+              "suffix": " $",
+              "label": "budget de l'étude",
+              "decimals": 0,
+              "position": "right"
+            }
+          ]
+        },
+        {
+          "vo": "Il est remporté par un petit laboratoire de l'université de Virginie-Occidentale, à Morgantown : le CAFEE. Ses chercheurs travaillent d'habitude sur les moteurs de camions.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wvu_news",
+              "in": "00:33",
+              "motion": "pan-left",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "05:51",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "18:15",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.8,
+              "dur": 3.5,
+              "title": "Morgantown",
+              "subtitle": "Université de Virginie-Occidentale (WVU)"
+            }
+          ]
+        },
+        {
+          "vo": "L'équipe se procure trois voitures : une Jetta, une Passat, et un BMW X5. Dans le coffre, elle installe un appareil de mesure portable, alimenté par un générateur. Un tuyau relie le pot d'échappement à ce laboratoire roulant.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:38",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:48",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "22:57",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "23:10",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Arvind Thiruvengadam et ses collègues prennent la route. Le centre de Los Angeles, San Diego. Puis un trajet bien plus long.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "14:30",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:12.3",
+              "motion": "drift",
+              "dur": 3.5
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:16.3",
+              "motion": "pan-right",
+              "dur": 3.5
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "wvu_researchers",
+            "in": 422.9,
+            "out": 439.6,
+            "volume": 1.0,
+            "subtitle": "On s'est dit : on va rouler de Los Angeles à Seattle, aller-retour. Un trajet éprouvant, sans place dans la voiture, le matériel prenait tout. On ne pouvait pas incliner les sièges. On est restés comme ça pendant vingt-quatre heures."
+          },
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.6,
+              "dur": 4,
+              "title": "Arvind Thiruvengadam",
+              "subtitle": "Chercheur au CAFEE (WVU)"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "wvu_researchers",
+            "in": 422.9,
+            "motion": "zoom-in"
+          }
+        },
+        {
+          "vo": "Pendant ce temps, un autre membre de l'équipe teste les mêmes voitures en laboratoire, sur un banc à rouleaux du CARB, l'agence californienne de l'air. Là, tout est parfait : les émissions sont quasi nulles.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "27:33",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "18:50",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "23:20",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Mais sur la route, les courbes s'envolent.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "32:41",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "wvu_researchers",
+            "in": 666.7,
+            "out": 679.8,
+            "volume": 1.0,
+            "subtitle": "Quand je l'ai rejoint pour les essais sur route en Californie, je lui ai demandé : on ne voit pas cette tendance proche de zéro que tu observes. Est-ce qu'on fait quelque chose de travers ?"
+          },
+          "visual": {
+            "type": "video",
+            "source": "wvu_researchers",
+            "in": 666.7,
+            "motion": "zoom-out"
+          }
+        },
+        {
+          "vo": "Les chercheurs pensent d'abord à une erreur. Ils vérifient leurs appareils. Ils refont les mesures. Encore. Et encore. Le résultat ne change pas.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "23:02",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "10:00",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "32:45",
+              "motion": "pan-left"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "33:01",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Sur la route, la Jetta rejette jusqu'à trente-cinq fois la limite américaine d'oxydes d'azote. La Passat, jusqu'à vingt fois. La BMW, elle, reste dans les clous.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:24.3",
+              "motion": "drift",
+              "dur": 3.6,
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.4,
+                  "dur": 3.8,
+                  "value": 35,
+                  "prefix": "× ",
+                  "suffix": "",
+                  "label": "la limite de NOx · Jetta",
+                  "decimals": 0,
+                  "position": "center"
+                }
+              ]
+            },
+            {
+              "type": "video",
+              "source": "clean_diesel_ads_2",
+              "in": "00:02.2",
+              "motion": "zoom-in",
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.3,
+                  "dur": 3.2,
+                  "value": 20,
+                  "prefix": "× ",
+                  "suffix": "",
+                  "label": "la limite de NOx · Passat",
+                  "decimals": 0,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "01:30",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "En mai deux-mille-quatorze, l'équipe présente ses résultats lors d'une conférence. Elle ne cite aucune marque, et n'accuse personne.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "01:40",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "21:35",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.8,
+              "text": "MAI 2014"
+            }
+          ]
+        },
+        {
+          "bite": {
+            "source": "wvu_news",
+            "in": 55.3,
+            "out": 61.6,
+            "volume": 1.0,
+            "subtitle": "Nous ne tirerions jamais la moindre conclusion à partir de deux véhicules. Nous avons présenté ce que nous avons vu."
+          },
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.5,
+              "dur": 3.5,
+              "title": "Équipe du CAFEE",
+              "subtitle": "Université de Virginie-Occidentale"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "wvu_news",
+            "in": 55.3,
+            "motion": "static",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "Mais dans la salle, des employés de Volkswagen écoutent. Et le rapport atterrit sur le bureau des régulateurs.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "21:45",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "27:40",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12
+        }
+      ]
+    },
+    {
+      "title": "Le mensonge",
+      "segments": [
+        {
+          "duration": 3.6,
+          "transition": "dip",
+          "visual": {
+            "type": "chapter",
+            "number": 3,
+            "title": "Le mensonge",
+            "bg": {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "31:18",
+              "motion": "zoom-in"
+            }
+          }
+        },
+        {
+          "vo": "Le CARB ouvre une enquête. Ses ingénieurs interrogent Volkswagen. La réponse : un problème technique, rien de plus.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "28:31",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "26:50",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "28:40",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.6,
+              "dur": 3.5,
+              "title": "Stanley Young",
+              "subtitle": "Agence californienne de l'air (CARB)"
+            }
+          ]
+        },
+        {
+          "vo": "En décembre deux-mille-quatorze, le constructeur lance un rappel pour mettre à jour le logiciel de près d'un demi-million de voitures. Les nouveaux tests ne montrent quasiment aucune amélioration.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:31",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "29:22",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "31:25",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.8,
+              "text": "DÉCEMBRE 2014"
+            }
+          ]
+        },
+        {
+          "vo": "Pire : selon les enquêteurs, cette mise à jour a servi à perfectionner la triche.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "31:47",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "31:17",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.5,
+              "dur": 3.2,
+              "title": "Thorsten Holz",
+              "subtitle": "Expert en sécurité informatique, université de Bochum"
+            }
+          ]
+        },
+        {
+          "vo": "Car la vérité est dans le code. Le calculateur du moteur surveille des dizaines de paramètres : la vitesse, la durée de fonctionnement, la pression de l'air. Et surtout, la position du volant.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "32:05",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:19.3",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:45.3",
+              "motion": "static"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Sur un banc d'essai, personne ne tourne le volant. Le logiciel en déduit qu'il est testé, et active la dépollution à plein régime. Sur la route, il la réduit. La voiture peut alors polluer jusqu'à quarante fois plus.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "32:20",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:33.3",
+              "motion": "drift",
+              "dur": 2.0
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "00:35.5",
+              "motion": "pan-left"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "highlight",
+              "at": 1.2,
+              "dur": 2.6,
+              "box": [
+                28,
+                20,
+                44,
+                55
+              ],
+              "label": "« Lenkwinkel » : l'angle du volant",
+              "shape": "rect"
+            }
+          ]
+        },
+        {
+          "vo": "Ce mécanisme a un nom : le « defeat device ». Un dispositif d'invalidation, strictement interdit par la loi américaine sur la qualité de l'air.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "33:08",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "01:59.3",
+              "motion": "pan-right"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Pendant plus d'un an, Volkswagen multiplie les explications techniques. Jusqu'à l'été deux-mille-quinze, où les régulateurs posent un ultimatum : pas d'explication, pas d'homologation pour les diesels de l'année suivante.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "35:21",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "36:34",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "36:15",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Le 3 septembre, lors d'une réunion avec l'EPA et le CARB, les représentants de Volkswagen finissent par avouer.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "35:30",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "01:26",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "3 SEPTEMBRE 2015"
+            }
+          ]
+        },
+        {
+          "vo": "Le vendredi 18 septembre, l'agence américaine de l'environnement rend l'affaire publique.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "39:53",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "40:23",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "epa_announcement",
+              "in": "00:47",
+              "motion": "zoom-in",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "18 SEPTEMBRE 2015"
+            }
+          ]
+        },
+        {
+          "vo": "Quatre cent quatre-vingt-deux mille voitures sont concernées aux États-Unis. Quatre jours plus tard, Volkswagen l'admet : il y en a onze millions dans le monde.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:13",
+              "motion": "drift",
+              "dur": 4.5,
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.4,
+                  "dur": 3.6,
+                  "value": 482000,
+                  "prefix": "",
+                  "suffix": "",
+                  "label": "voitures aux États-Unis",
+                  "decimals": 0,
+                  "position": "right"
+                }
+              ]
+            },
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "00:28",
+              "motion": "zoom-in",
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.3,
+                  "dur": 4,
+                  "value": 11000000,
+                  "prefix": "",
+                  "suffix": "",
+                  "label": "voitures dans le monde",
+                  "decimals": 0,
+                  "position": "center"
+                }
+              ]
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "À Wolfsburg, Martin Winterkorn enregistre une déclaration vidéo.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "06:08",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "winterkorn_apology",
+            "in": 61.1,
+            "out": 73.9,
+            "volume": 1.0,
+            "subtitle": "Je suis infiniment désolé que nous ayons trahi cette confiance. Je présente mes excuses les plus sincères à nos clients, aux autorités et à l'ensemble du public pour ce comportement fautif."
+          },
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.4,
+              "dur": 3,
+              "text": "22 SEPTEMBRE 2015"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "winterkorn_apology",
+            "in": 61.1,
+            "motion": "zoom-in",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "Le lendemain, il démissionne. Il assume la responsabilité du scandale, mais affirme n'avoir rien su de la fraude.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "42:16",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "42:40",
+              "motion": "zoom-in"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "23 SEPTEMBRE 2015"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "L'addition",
+      "segments": [
+        {
+          "duration": 3.6,
+          "transition": "dip",
+          "visual": {
+            "type": "chapter",
+            "number": 4,
+            "title": "L'addition",
+            "bg": {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "41:49",
+              "motion": "zoom-in"
+            }
+          }
+        },
+        {
+          "vo": "Sur les marchés, la sanction est immédiate. Le lundi 21 septembre, l'action Volkswagen perd près d'un cinquième de sa valeur. En quelques jours, elle abandonne environ un tiers.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "41:50",
+              "motion": "drift",
+              "dur": 4.6,
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.4,
+                  "dur": 3.8,
+                  "value": 18.6,
+                  "prefix": "− ",
+                  "suffix": " %",
+                  "label": "en une séance · 21 septembre 2015",
+                  "decimals": 1,
+                  "position": "center"
+                }
+              ]
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "41:36",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:25",
+              "motion": "drift",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Le 8 octobre, Michael Horn est convoqué devant une commission de la Chambre des représentants.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "horn_hearing",
+              "in": "00:17.5",
+              "motion": "drift",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "horn_hearing",
+              "in": "00:08",
+              "motion": "zoom-in",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "8 OCTOBRE 2015 · WASHINGTON"
+            }
+          ]
+        },
+        {
+          "bite": {
+            "source": "horn_hearing",
+            "in": 151.4,
+            "out": 161.5,
+            "volume": 1.0,
+            "subtitle": "… contenaient un dispositif d'invalidation, sous la forme d'un logiciel caché, capable de reconnaître si le véhicule roulait dans un laboratoire d'essai ou sur la route."
+          },
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.5,
+              "dur": 4,
+              "title": "Michael Horn",
+              "subtitle": "PDG de Volkswagen of America"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "horn_hearing",
+            "in": 151.4,
+            "motion": "zoom-in",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "Sa ligne de défense : la fraude serait l'œuvre de quelques ingénieurs du logiciel, qui auraient agi seuls. Les élus n'y croient pas.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "horn_hearing",
+              "in": "00:37.5",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "horn_hearing",
+              "in": "03:50",
+              "motion": "drift",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "horn_hearing",
+            "in": 203.6,
+            "out": 211.5,
+            "volume": 1.0,
+            "subtitle": "Ces événements sont profondément troublants. Je ne pensais pas qu'une telle chose était possible au sein du groupe Volkswagen."
+          },
+          "visual": {
+            "type": "video",
+            "source": "horn_hearing",
+            "in": 203.6,
+            "motion": "zoom-in",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "La justice américaine, elle, remonte la chaîne. En janvier deux-mille-dix-sept, Volkswagen plaide coupable. Le groupe accepte de payer quatre milliards trois cents millions de dollars d'amendes.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "schmidt_sentencing",
+              "in": "00:39.8",
+              "motion": "zoom-in",
+              "dur": 4.2,
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "schmidt_sentencing",
+              "in": "00:11.5",
+              "motion": "drift",
+              "dur": 5.5,
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "42:25",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.6,
+              "text": "JANVIER 2017"
+            },
+            {
+              "type": "stat",
+              "at": 4.0,
+              "dur": 3.5,
+              "value": 4.3,
+              "prefix": "",
+              "suffix": " Md$",
+              "label": "d'amendes pénales et civiles",
+              "decimals": 1,
+              "position": "right"
+            }
+          ]
+        },
+        {
+          "vo": "Les cadres tombent un à un. James Liang, un ingénieur qui a participé à la conception du logiciel, écope de quarante mois de prison. Oliver Schmidt, ancien responsable des questions environnementales de Volkswagen aux États-Unis, est arrêté à Miami, à la fin de ses vacances.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_fr",
+              "in": "03:52",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "schmidt_sentencing",
+              "in": "00:03",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "schmidt_sentencing",
+              "in": "00:27",
+              "motion": "zoom-in",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "schmidt_sentencing",
+            "in": 17.8,
+            "out": 25.5,
+            "volume": 1.0,
+            "subtitle": "Le juge a donné à Schmidt exactement ce que demandait l'accusation : sept ans de prison. Une peine très, très lourde."
+          },
+          "overlays": [
+            {
+              "type": "lowerThird",
+              "at": 0.5,
+              "dur": 4,
+              "title": "Oliver Schmidt",
+              "subtitle": "Condamné à 7 ans de prison (décembre 2017)"
+            }
+          ],
+          "visual": {
+            "type": "video",
+            "source": "schmidt_sentencing",
+            "in": 17.8,
+            "motion": "zoom-in",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "En Allemagne, l'ancien patron d'Audi, Rupert Stadler, est condamné en deux-mille-vingt-trois à un an et neuf mois de prison avec sursis. C'est le premier membre du directoire du groupe à être condamné.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_fr",
+              "in": "04:12",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "43:31",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Et en deux-mille-dix-huit, le New York Times révèle une autre affaire. Un institut financé par Volkswagen, Daimler et BMW a exposé dix singes aux gaz d'échappement d'une Beetle diesel. Une Beetle équipée, elle aussi, du logiciel truqué.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "stock_plunge",
+              "in": "00:18.5",
+              "motion": "zoom-in",
+              "grade": "archive"
+            },
+            {
+              "type": "video",
+              "source": "news_report_fr",
+              "in": "02:50",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "11:12",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 2.5,
+              "text": "2018"
+            }
+          ]
+        },
+        {
+          "vo": "Au total, le scandale a coûté au groupe plus de trente milliards d'euros.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "01:21",
+              "motion": "drift",
+              "overlays": [
+                {
+                  "type": "stat",
+                  "at": 0.3,
+                  "dur": 3.8,
+                  "value": 30,
+                  "prefix": "+ ",
+                  "suffix": " Md€",
+                  "label": "coût total pour Volkswagen",
+                  "decimals": 0,
+                  "position": "center"
+                }
+              ]
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Le coût humain, lui, est plus difficile à mesurer. Des chercheurs du MIT estiment que ces émissions en trop pourraient provoquer environ mille deux cents morts prématurées en Europe.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "00:30",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "09:12",
+              "motion": "pan-left"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "14:32",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12
+        }
+      ]
+    },
+    {
+      "title": "Dix ans après",
+      "segments": [
+        {
+          "duration": 3.6,
+          "transition": "dip",
+          "visual": {
+            "type": "chapter",
+            "number": 5,
+            "title": "Dix ans après",
+            "bg": {
+              "type": "video",
+              "source": "vw_ev_pivot",
+              "in": "01:22"
+            }
+          }
+        },
+        {
+          "vo": "Dix ans plus tard, le paysage a changé. En Europe, les voitures sont désormais homologuées avec des tests sur route, en conditions réelles. Et le diesel s'est effondré dans les ventes de voitures neuves.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "defeat_device_explained",
+              "in": "02:10.3",
+              "motion": "drift",
+              "dur": 2.5
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "43:40",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "01:08",
+              "motion": "pan-right"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "vo": "Volkswagen, lui, a choisi de tourner la page en misant sur l'électrique. En deux-mille-dix-neuf, à Francfort, le groupe présente l'ID.3, une voiture pensée comme le symbole d'un nouveau départ.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "vw_ev_pivot",
+              "in": "01:25",
+              "motion": "drift"
+            },
+            {
+              "type": "video",
+              "source": "vw_ev_pivot",
+              "in": "04:01",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "vw_ev_pivot",
+              "in": "05:20",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "SEPTEMBRE 2019 · FRANCFORT"
+            }
+          ]
+        },
+        {
+          "vo": "Mais le passé n'est pas soldé. En mai deux-mille-vingt-cinq, à Braunschweig, quatre anciens cadres sont reconnus coupables de fraude. Deux sont condamnés à de la prison ferme.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "20:49",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "20:55",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "overlays": [
+            {
+              "type": "date",
+              "at": 0.6,
+              "dur": 3,
+              "text": "MAI 2025 · BRAUNSCHWEIG"
+            }
+          ]
+        },
+        {
+          "vo": "Martin Winterkorn, lui, n'a toujours pas été jugé. Son procès a été suspendu pour raisons de santé.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "news_report_de",
+              "in": "16:26",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "winterkorn_apology",
+              "in": "00:30",
+              "motion": "zoom-in",
+              "grade": "archive"
+            }
+          ],
+          "sourceVolume": 0.12
+        },
+        {
+          "bite": {
+            "source": "winterkorn_apology",
+            "in": 44.7,
+            "out": 50.7,
+            "volume": 1.0,
+            "subtitle": "Et pour être clair : des manipulations chez Volkswagen, cela ne doit plus jamais se reproduire."
+          },
+          "visual": {
+            "type": "video",
+            "source": "winterkorn_apology",
+            "in": 44.7,
+            "motion": "static",
+            "grade": "archive"
+          }
+        },
+        {
+          "vo": "Tout est parti d'un petit laboratoire, de trois voitures, et de soixante-dix mille dollars.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "03:00",
+              "motion": "zoom-in"
+            },
+            {
+              "type": "video",
+              "source": "wvu_researchers",
+              "in": "09:00",
+              "motion": "drift"
+            }
+          ],
+          "sourceVolume": 0.12,
+          "transition": "fade"
+        },
+        {
+          "vo": "Ces chercheurs voulaient montrer que le diesel pouvait être propre. Ils ont mis au jour l'une des plus grandes fraudes de l'histoire de l'industrie.",
+          "shots": [
+            {
+              "type": "video",
+              "source": "wolfsburg_factory",
+              "in": "01:41",
+              "motion": "zoom-out",
+              "letterbox": true
+            }
+          ],
+          "sourceVolume": 0.12,
+          "pad": 1.5
+        },
+        {
+          "duration": 4,
+          "transition": "fade",
+          "visual": {
+            "type": "video",
+            "source": "wolfsburg_factory",
+            "in": "01:56",
+            "motion": "static",
+            "letterbox": true
+          }
+        }
+      ]
+    }
+  ]
+}
