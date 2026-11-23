@@ -1,0 +1,1135 @@
+1
+00:00:00,000 --> 00:00:01,033
+Soyons clairs.
+
+2
+00:00:00,933 --> 00:00:04,333
+Notre entreprise a été malhonnête avec l'EPA,
+
+3
+00:00:04,233 --> 00:00:07,633
+avec l'agence californienne de l'air, et avec
+
+4
+00:00:07,533 --> 00:00:08,600
+vous tous.
+
+5
+00:00:08,500 --> 00:00:11,900
+Pour le dire à l'allemande : on
+
+6
+00:00:11,800 --> 00:00:13,300
+a complètement merdé.
+
+7
+00:00:13,300 --> 00:00:15,700
+Cet homme c'est le patron de Volkswagen
+
+8
+00:00:15,567 --> 00:00:16,433
+aux États-Unis
+
+9
+00:00:17,200 --> 00:00:19,667
+Ce soir-là il devait présenter la nouvelle
+
+10
+00:00:19,567 --> 00:00:20,333
+Passat
+
+11
+00:00:21,133 --> 00:00:23,567
+Trois jours plus tôt l'agence américaine de
+
+12
+00:00:23,467 --> 00:00:26,000
+l'environnement a révélé qu'un logiciel caché trompait
+
+13
+00:00:25,867 --> 00:00:27,367
+les contrôles anti-pollution
+
+14
+00:00:28,633 --> 00:00:30,467
+Onze millions de voitures dans le monde
+
+15
+00:00:31,267 --> 00:00:33,533
+Plus de trente milliards d'euros de pénalités
+
+16
+00:00:34,300 --> 00:00:35,633
+Des dirigeants en prison
+
+17
+00:00:36,833 --> 00:00:38,600
+Et au départ de tout ça il
+
+18
+00:00:38,467 --> 00:00:40,300
+n'y a ni enquête de police ni
+
+19
+00:00:40,167 --> 00:00:41,233
+lanceur d'alerte
+
+20
+00:00:42,033 --> 00:00:44,033
+Il y a trois voitures une petite
+
+21
+00:00:43,900 --> 00:00:46,033
+équipe de chercheurs et un budget de
+
+22
+00:00:45,900 --> 00:00:47,200
+soixante-dix mille dollars
+
+23
+00:00:48,433 --> 00:00:51,133
+Comment un laboratoire de Virginie-Occidentale a-t-il fait
+
+24
+00:00:51,000 --> 00:00:53,167
+tomber le plus grand constructeur automobile du
+
+25
+00:00:53,033 --> 00:00:53,567
+monde
+
+26
+00:01:03,400 --> 00:01:05,233
+Wolfsburg en Basse-Saxe
+
+27
+00:01:06,000 --> 00:01:08,333
+Une ville construite autour d'une usine et
+
+28
+00:01:08,233 --> 00:01:09,800
+une usine grande comme une ville
+
+29
+00:01:10,567 --> 00:01:12,067
+C'est ici que bat le cœur de
+
+30
+00:01:11,933 --> 00:01:12,900
+Volkswagen
+
+31
+00:01:14,100 --> 00:01:16,433
+En deux-mille-sept un nouveau patron prend les
+
+32
+00:01:16,300 --> 00:01:18,300
+commandes Martin Winterkorn
+
+33
+00:01:19,067 --> 00:01:22,400
+Un ingénieur perfectionniste réputé connaître chaque vis
+
+34
+00:01:22,267 --> 00:01:23,367
+de chaque voiture
+
+35
+00:01:24,133 --> 00:01:26,333
+Il fixe un cap faire de Volkswagen
+
+36
+00:01:26,200 --> 00:01:28,467
+le numéro un mondial avant deux-mille-dix-huit
+
+37
+00:01:29,233 --> 00:01:30,367
+Devant Toyota
+
+38
+00:01:31,133 --> 00:01:32,767
+Devant General Motors
+
+39
+00:01:34,000 --> 00:01:35,833
+Pour y arriver il lui manque un
+
+40
+00:01:35,733 --> 00:01:37,300
+marché les États-Unis
+
+41
+00:01:38,067 --> 00:01:39,833
+Les Américains boudent la marque
+
+42
+00:01:40,600 --> 00:01:42,900
+Volkswagen y vend peu et cher
+
+43
+00:01:44,100 --> 00:01:46,533
+Sa carte maîtresse c'est le diesel
+
+44
+00:01:47,300 --> 00:01:49,567
+Un moteur sobre et puissant que l'Europe
+
+45
+00:01:49,433 --> 00:01:50,100
+adore
+
+46
+00:01:50,867 --> 00:01:53,033
+Volkswagen le vend aux Américains comme une
+
+47
+00:01:52,933 --> 00:01:56,133
+alternative écologique à l'hybride le Clean Diesel
+
+48
+00:01:56,300 --> 00:01:57,400
+le diesel propre
+
+49
+00:01:58,633 --> 00:02:00,300
+Les publicités s'enchaînent
+
+50
+00:02:01,067 --> 00:02:03,200
+Dans l'une d'elles trois dames âgées se
+
+51
+00:02:03,067 --> 00:02:04,467
+disputent dans une Golf
+
+52
+00:02:05,600 --> 00:02:06,767
+Ça, c'était avant.
+
+53
+00:02:06,667 --> 00:02:08,500
+On est en 2015 !
+
+54
+00:02:08,500 --> 00:02:10,433
+Pour le prouver l'une d'elles frotte une
+
+55
+00:02:10,300 --> 00:02:12,333
+écharpe blanche contre le pot d'échappement
+
+56
+00:02:13,100 --> 00:02:14,733
+L'écharpe ressort immaculée
+
+57
+00:02:15,967 --> 00:02:17,167
+Le pari marche
+
+58
+00:02:17,933 --> 00:02:20,500
+En deux-mille-neuf la Jetta TDI est élue
+
+59
+00:02:20,367 --> 00:02:22,367
+voiture verte de l'année aux États-Unis
+
+60
+00:02:23,133 --> 00:02:25,267
+Des centaines de milliers d'Américains achètent un
+
+61
+00:02:25,167 --> 00:02:27,433
+diesel Volkswagen en pensant faire un geste
+
+62
+00:02:27,333 --> 00:02:28,333
+pour la planète
+
+63
+00:02:29,567 --> 00:02:31,200
+Mais il y a un problème et
+
+64
+00:02:31,100 --> 00:02:33,633
+à Wolfsburg les ingénieurs le connaissent depuis
+
+65
+00:02:33,533 --> 00:02:34,133
+le début
+
+66
+00:02:34,900 --> 00:02:37,333
+Les normes américaines sur les oxydes d'azote
+
+67
+00:02:37,533 --> 00:02:39,600
+les NOx sont parmi les plus sévères
+
+68
+00:02:39,467 --> 00:02:40,067
+au monde
+
+69
+00:02:40,867 --> 00:02:42,967
+Ces gaz irritent les poumons et forment
+
+70
+00:02:42,833 --> 00:02:44,233
+le smog des grandes villes
+
+71
+00:02:45,467 --> 00:02:47,700
+Pour les respecter il faut un système
+
+72
+00:02:47,600 --> 00:02:50,367
+de dépollution coûteux et encombrant qui consomme
+
+73
+00:02:50,233 --> 00:02:51,900
+du carburant ou un additif
+
+74
+00:02:52,700 --> 00:02:54,867
+La voiture devient plus chère et moins
+
+75
+00:02:54,733 --> 00:02:55,400
+sobre
+
+76
+00:02:56,167 --> 00:02:58,300
+Exactement l'inverse de la promesse
+
+77
+00:02:59,533 --> 00:03:02,033
+Alors dès la fin de l'année deux-mille-six
+
+78
+00:03:02,133 --> 00:03:04,133
+des ingénieurs du groupe choisissent une autre
+
+79
+00:03:04,000 --> 00:03:04,467
+voie
+
+80
+00:03:05,233 --> 00:03:08,467
+Une solution simple bon marché et invisible
+
+81
+00:03:09,633 --> 00:03:11,400
+Une solution qui va tenir près de
+
+82
+00:03:11,267 --> 00:03:11,833
+dix ans
+
+83
+00:03:12,600 --> 00:03:14,400
+Jusqu'à ce qu'elle croise la route d'une
+
+84
+00:03:14,267 --> 00:03:16,433
+université de Virginie-Occidentale
+
+85
+00:03:21,233 --> 00:03:22,333
+Deux-mille-treize
+
+86
+00:03:23,100 --> 00:03:26,000
+L'ICCT une organisation qui milite pour des
+
+87
+00:03:25,900 --> 00:03:28,533
+transports moins polluants veut comparer les diesels
+
+88
+00:03:28,400 --> 00:03:30,133
+vendus en Europe et aux États-Unis
+
+89
+00:03:30,900 --> 00:03:33,333
+Son raisonnement si les modèles américains sont
+
+90
+00:03:33,233 --> 00:03:35,000
+propres l'Europe peut faire mieux
+
+91
+00:03:36,233 --> 00:03:38,633
+Pour mesurer les émissions en conditions réelles
+
+92
+00:03:38,867 --> 00:03:40,300
+elle lance un appel d'offres
+
+93
+00:03:41,067 --> 00:03:43,967
+Le contrat est minuscule soixante-dix mille dollars
+
+94
+00:03:45,200 --> 00:03:47,200
+Il est remporté par un petit laboratoire
+
+95
+00:03:47,067 --> 00:03:50,633
+de l'université de Virginie-Occidentale à Morgantown le
+
+96
+00:03:50,500 --> 00:03:51,133
+CAFEE
+
+97
+00:03:51,933 --> 00:03:54,267
+Ses chercheurs travaillent d'habitude sur les moteurs
+
+98
+00:03:54,133 --> 00:03:54,800
+de camions
+
+99
+00:03:56,100 --> 00:03:58,633
+L'équipe se procure trois voitures une Jetta
+
+100
+00:03:58,833 --> 00:04:01,333
+une Passat et un BMW X5
+
+101
+00:04:02,100 --> 00:04:04,233
+Dans le coffre elle installe un appareil
+
+102
+00:04:04,100 --> 00:04:07,167
+de mesure portable alimenté par un générateur
+
+103
+00:04:07,967 --> 00:04:09,767
+Un tuyau relie le pot d'échappement à
+
+104
+00:04:09,633 --> 00:04:10,833
+ce laboratoire roulant
+
+105
+00:04:12,100 --> 00:04:14,200
+Arvind Thiruvengadam et ses collègues prennent la
+
+106
+00:04:14,100 --> 00:04:14,667
+route
+
+107
+00:04:15,433 --> 00:04:17,933
+Le centre de Los Angeles San Diego
+
+108
+00:04:18,700 --> 00:04:20,167
+Puis un trajet bien plus long
+
+109
+00:04:21,300 --> 00:04:24,333
+On s'est dit : on va rouler
+
+110
+00:04:24,233 --> 00:04:26,833
+de Los Angeles à Seattle, aller-retour.
+
+111
+00:04:26,733 --> 00:04:29,767
+Un trajet éprouvant, sans place dans la
+
+112
+00:04:29,667 --> 00:04:31,833
+voiture, le matériel prenait tout.
+
+113
+00:04:31,733 --> 00:04:34,767
+On ne pouvait pas incliner les sièges.
+
+114
+00:04:34,667 --> 00:04:37,667
+On est restés comme ça pendant vingt-quatre
+
+115
+00:04:37,567 --> 00:04:38,100
+heures.
+
+116
+00:04:38,100 --> 00:04:40,100
+Pendant ce temps un autre membre de
+
+117
+00:04:39,967 --> 00:04:42,233
+l'équipe teste les mêmes voitures en laboratoire
+
+118
+00:04:42,367 --> 00:04:43,800
+sur un banc à rouleaux du CARB
+
+119
+00:04:44,033 --> 00:04:45,767
+l'agence californienne de l'air
+
+120
+00:04:46,567 --> 00:04:49,100
+Là tout est parfait les émissions sont
+
+121
+00:04:49,000 --> 00:04:49,800
+quasi nulles
+
+122
+00:04:51,033 --> 00:04:53,433
+Mais sur la route les courbes s'envolent
+
+123
+00:04:54,533 --> 00:04:57,167
+Quand je l'ai rejoint pour les essais
+
+124
+00:04:57,067 --> 00:04:59,733
+sur route en Californie, je lui ai
+
+125
+00:04:59,633 --> 00:05:02,267
+demandé : on ne voit pas cette
+
+126
+00:05:02,167 --> 00:05:04,833
+tendance proche de zéro que tu observes.
+
+127
+00:05:04,733 --> 00:05:07,367
+Est-ce qu'on fait quelque chose de travers
+
+128
+00:05:07,267 --> 00:05:07,733
+?
+
+129
+00:05:07,733 --> 00:05:09,900
+Les chercheurs pensent d'abord à une erreur
+
+130
+00:05:10,667 --> 00:05:12,300
+Ils vérifient leurs appareils
+
+131
+00:05:13,067 --> 00:05:14,467
+Ils refont les mesures
+
+132
+00:05:15,233 --> 00:05:16,033
+Encore
+
+133
+00:05:16,800 --> 00:05:17,767
+Et encore
+
+134
+00:05:18,533 --> 00:05:20,067
+Le résultat ne change pas
+
+135
+00:05:21,333 --> 00:05:23,633
+Sur la route la Jetta rejette jusqu'à
+
+136
+00:05:23,533 --> 00:05:26,300
+trente-cinq fois la limite américaine d'oxydes d'azote
+
+137
+00:05:27,067 --> 00:05:29,200
+La Passat jusqu'à vingt fois
+
+138
+00:05:29,967 --> 00:05:32,867
+La BMW elle reste dans les clous
+
+139
+00:05:34,067 --> 00:05:37,133
+En mai deux-mille-quatorze l'équipe présente ses résultats
+
+140
+00:05:37,033 --> 00:05:38,333
+lors d'une conférence
+
+141
+00:05:39,133 --> 00:05:41,067
+Elle ne cite aucune marque et n'accuse
+
+142
+00:05:40,933 --> 00:05:41,667
+personne
+
+143
+00:05:42,833 --> 00:05:45,133
+Nous ne tirerions jamais la moindre conclusion
+
+144
+00:05:45,033 --> 00:05:46,700
+à partir de deux véhicules.
+
+145
+00:05:46,600 --> 00:05:48,933
+Nous avons présenté ce que nous avons
+
+146
+00:05:48,833 --> 00:05:49,233
+vu.
+
+147
+00:05:49,233 --> 00:05:51,300
+Mais dans la salle des employés de
+
+148
+00:05:51,167 --> 00:05:52,467
+Volkswagen écoutent
+
+149
+00:05:53,267 --> 00:05:54,967
+Et le rapport atterrit sur le bureau
+
+150
+00:05:54,867 --> 00:05:56,000
+des régulateurs
+
+151
+00:06:00,833 --> 00:06:02,433
+Le CARB ouvre une enquête
+
+152
+00:06:03,233 --> 00:06:05,367
+Ses ingénieurs interrogent Volkswagen
+
+153
+00:06:06,167 --> 00:06:08,733
+La réponse un problème technique rien de
+
+154
+00:06:08,600 --> 00:06:09,300
+plus
+
+155
+00:06:10,533 --> 00:06:13,700
+En décembre deux-mille-quatorze le constructeur lance un
+
+156
+00:06:13,567 --> 00:06:15,467
+rappel pour mettre à jour le logiciel
+
+157
+00:06:15,367 --> 00:06:17,233
+de près d'un demi-million de voitures
+
+158
+00:06:18,000 --> 00:06:20,133
+Les nouveaux tests ne montrent quasiment aucune
+
+159
+00:06:20,000 --> 00:06:20,867
+amélioration
+
+160
+00:06:22,133 --> 00:06:24,667
+Pire selon les enquêteurs cette mise à
+
+161
+00:06:24,533 --> 00:06:26,667
+jour a servi à perfectionner la triche
+
+162
+00:06:27,933 --> 00:06:29,700
+Car la vérité est dans le code
+
+163
+00:06:30,467 --> 00:06:32,833
+Le calculateur du moteur surveille des dizaines
+
+164
+00:06:32,733 --> 00:06:35,400
+de paramètres la vitesse la durée de
+
+165
+00:06:35,267 --> 00:06:37,433
+fonctionnement la pression de l'air
+
+166
+00:06:38,200 --> 00:06:40,467
+Et surtout la position du volant
+
+167
+00:06:41,733 --> 00:06:43,900
+Sur un banc d'essai personne ne tourne
+
+168
+00:06:43,767 --> 00:06:44,367
+le volant
+
+169
+00:06:45,133 --> 00:06:47,133
+Le logiciel en déduit qu'il est testé
+
+170
+00:06:47,333 --> 00:06:49,500
+et active la dépollution à plein régime
+
+171
+00:06:50,267 --> 00:06:52,033
+Sur la route il la réduit
+
+172
+00:06:52,800 --> 00:06:55,033
+La voiture peut alors polluer jusqu'à quarante
+
+173
+00:06:54,900 --> 00:06:55,800
+fois plus
+
+174
+00:06:57,033 --> 00:06:59,333
+Ce mécanisme a un nom le defeat
+
+175
+00:06:59,200 --> 00:07:00,033
+device
+
+176
+00:07:00,800 --> 00:07:04,133
+Un dispositif d'invalidation strictement interdit par la
+
+177
+00:07:04,000 --> 00:07:06,100
+loi américaine sur la qualité de l'air
+
+178
+00:07:07,300 --> 00:07:10,000
+Pendant plus d'un an Volkswagen multiplie les
+
+179
+00:07:09,867 --> 00:07:11,367
+explications techniques
+
+180
+00:07:12,133 --> 00:07:15,067
+Jusqu'à l'été deux-mille-quinze où les régulateurs posent
+
+181
+00:07:14,933 --> 00:07:18,533
+un ultimatum pas d'explication pas d'homologation pour
+
+182
+00:07:18,433 --> 00:07:20,067
+les diesels de l'année suivante
+
+183
+00:07:21,300 --> 00:07:24,133
+Le 3 septembre lors d'une réunion avec l'EPA
+
+184
+00:07:24,000 --> 00:07:26,600
+et le CARB les représentants de Volkswagen
+
+185
+00:07:26,467 --> 00:07:27,533
+finissent par avouer
+
+186
+00:07:28,767 --> 00:07:32,600
+Le vendredi 18 septembre l'agence américaine de l'environnement rend
+
+187
+00:07:32,500 --> 00:07:33,600
+l'affaire publique
+
+188
+00:07:34,867 --> 00:07:37,333
+Quatre cent quatre-vingt-deux mille voitures sont concernées
+
+189
+00:07:37,233 --> 00:07:38,100
+aux États-Unis
+
+190
+00:07:38,867 --> 00:07:41,800
+Quatre jours plus tard Volkswagen l'admet il
+
+191
+00:07:41,700 --> 00:07:42,833
+y en a onze millions dans le
+
+192
+00:07:42,700 --> 00:07:43,233
+monde
+
+193
+00:07:44,467 --> 00:07:47,967
+À Wolfsburg Martin Winterkorn enregistre une déclaration
+
+194
+00:07:47,867 --> 00:07:48,533
+vidéo
+
+195
+00:07:49,667 --> 00:07:52,667
+Je suis infiniment désolé que nous ayons
+
+196
+00:07:52,567 --> 00:07:53,900
+trahi cette confiance.
+
+197
+00:07:53,800 --> 00:07:56,800
+Je présente mes excuses les plus sincères
+
+198
+00:07:56,700 --> 00:07:59,667
+à nos clients, aux autorités et à
+
+199
+00:07:59,567 --> 00:08:02,567
+l'ensemble du public pour ce comportement fautif.
+
+200
+00:08:02,567 --> 00:08:04,500
+Le lendemain il démissionne
+
+201
+00:08:05,267 --> 00:08:08,033
+Il assume la responsabilité du scandale mais
+
+202
+00:08:07,933 --> 00:08:09,767
+affirme n'avoir rien su de la fraude
+
+203
+00:08:14,633 --> 00:08:17,433
+Sur les marchés la sanction est immédiate
+
+204
+00:08:18,200 --> 00:08:21,767
+Le lundi 21 septembre l'action Volkswagen perd près d'un
+
+205
+00:08:21,633 --> 00:08:23,000
+cinquième de sa valeur
+
+206
+00:08:23,800 --> 00:08:26,067
+En quelques jours elle abandonne environ un
+
+207
+00:08:25,967 --> 00:08:26,600
+tiers
+
+208
+00:08:27,833 --> 00:08:30,633
+Le 8 octobre Michael Horn est convoqué devant
+
+209
+00:08:30,500 --> 00:08:32,733
+une commission de la Chambre des représentants
+
+210
+00:08:33,867 --> 00:08:36,700
+… contenaient un dispositif d'invalidation, sous la
+
+211
+00:08:36,600 --> 00:08:39,400
+forme d'un logiciel caché, capable de reconnaître
+
+212
+00:08:39,300 --> 00:08:42,133
+si le véhicule roulait dans un laboratoire
+
+213
+00:08:42,033 --> 00:08:44,067
+d'essai ou sur la route.
+
+214
+00:08:44,067 --> 00:08:46,300
+Sa ligne de défense la fraude serait
+
+215
+00:08:46,200 --> 00:08:48,800
+l'œuvre de quelques ingénieurs du logiciel qui
+
+216
+00:08:48,667 --> 00:08:49,767
+auraient agi seuls
+
+217
+00:08:50,533 --> 00:08:51,833
+Les élus n'y croient pas
+
+218
+00:08:52,967 --> 00:08:55,133
+Ces événements sont profondément troublants.
+
+219
+00:08:55,033 --> 00:08:58,067
+Je ne pensais pas qu'une telle chose
+
+220
+00:08:57,967 --> 00:09:00,967
+était possible au sein du groupe Volkswagen.
+
+221
+00:09:00,967 --> 00:09:04,233
+La justice américaine elle remonte la chaîne
+
+222
+00:09:05,033 --> 00:09:08,333
+En janvier deux-mille-dix-sept Volkswagen plaide coupable
+
+223
+00:09:09,100 --> 00:09:11,200
+Le groupe accepte de payer quatre milliards
+
+224
+00:09:11,100 --> 00:09:12,867
+trois cents millions de dollars d'amendes
+
+225
+00:09:14,100 --> 00:09:15,333
+Les cadres tombent un à un
+
+226
+00:09:16,133 --> 00:09:18,867
+James Liang un ingénieur qui a participé
+
+227
+00:09:18,767 --> 00:09:21,133
+à la conception du logiciel écope de
+
+228
+00:09:21,000 --> 00:09:22,233
+quarante mois de prison
+
+229
+00:09:23,000 --> 00:09:26,567
+Oliver Schmidt ancien responsable des questions environnementales
+
+230
+00:09:26,467 --> 00:09:28,967
+de Volkswagen aux États-Unis est arrêté à
+
+231
+00:09:28,867 --> 00:09:31,000
+Miami à la fin de ses vacances
+
+232
+00:09:32,167 --> 00:09:34,833
+Le juge a donné à Schmidt exactement
+
+233
+00:09:34,733 --> 00:09:37,400
+ce que demandait l'accusation : sept ans
+
+234
+00:09:37,300 --> 00:09:38,133
+de prison.
+
+235
+00:09:38,033 --> 00:09:39,967
+Une peine très, très lourde.
+
+236
+00:09:39,967 --> 00:09:43,533
+En Allemagne l'ancien patron d'Audi Rupert Stadler
+
+237
+00:09:43,767 --> 00:09:45,533
+est condamné en deux-mille-vingt-trois à un an
+
+238
+00:09:45,433 --> 00:09:47,233
+et neuf mois de prison avec sursis
+
+239
+00:09:48,000 --> 00:09:49,867
+C'est le premier membre du directoire du
+
+240
+00:09:49,733 --> 00:09:51,033
+groupe à être condamné
+
+241
+00:09:52,267 --> 00:09:54,700
+Et en deux-mille-dix-huit le New York Times
+
+242
+00:09:54,567 --> 00:09:55,900
+révèle une autre affaire
+
+243
+00:09:56,667 --> 00:09:59,667
+Un institut financé par Volkswagen Daimler et
+
+244
+00:09:59,533 --> 00:10:01,633
+BMW a exposé dix singes aux gaz
+
+245
+00:10:01,500 --> 00:10:03,300
+d'échappement d'une Beetle diesel
+
+246
+00:10:04,067 --> 00:10:07,000
+Une Beetle équipée elle aussi du logiciel
+
+247
+00:10:06,867 --> 00:10:07,533
+truqué
+
+248
+00:10:08,800 --> 00:10:11,033
+Au total le scandale a coûté au
+
+249
+00:10:10,900 --> 00:10:12,700
+groupe plus de trente milliards d'euros
+
+250
+00:10:13,900 --> 00:10:16,433
+Le coût humain lui est plus difficile
+
+251
+00:10:16,300 --> 00:10:17,033
+à mesurer
+
+252
+00:10:17,800 --> 00:10:19,867
+Des chercheurs du MIT estiment que ces
+
+253
+00:10:19,767 --> 00:10:22,000
+émissions en trop pourraient provoquer environ mille
+
+254
+00:10:21,867 --> 00:10:23,667
+deux cents morts prématurées en Europe
+
+255
+00:10:28,500 --> 00:10:30,567
+Dix ans plus tard le paysage a
+
+256
+00:10:30,433 --> 00:10:31,067
+changé
+
+257
+00:10:31,867 --> 00:10:34,500
+En Europe les voitures sont désormais homologuées
+
+258
+00:10:34,367 --> 00:10:36,500
+avec des tests sur route en conditions
+
+259
+00:10:36,400 --> 00:10:37,000
+réelles
+
+260
+00:10:37,767 --> 00:10:39,500
+Et le diesel s'est effondré dans les
+
+261
+00:10:39,367 --> 00:10:40,600
+ventes de voitures neuves
+
+262
+00:10:41,867 --> 00:10:44,700
+Volkswagen lui a choisi de tourner la
+
+263
+00:10:44,600 --> 00:10:46,267
+page en misant sur l'électrique
+
+264
+00:10:47,033 --> 00:10:50,333
+En deux-mille-dix-neuf à Francfort le groupe présente
+
+265
+00:10:50,233 --> 00:10:52,533
+l'ID 3 une voiture pensée comme le
+
+266
+00:10:52,400 --> 00:10:53,933
+symbole d'un nouveau départ
+
+267
+00:10:55,167 --> 00:10:56,800
+Mais le passé n'est pas soldé
+
+268
+00:10:57,567 --> 00:11:00,733
+En mai deux-mille-vingt-cinq à Braunschweig quatre anciens
+
+269
+00:11:00,600 --> 00:11:02,667
+cadres sont reconnus coupables de fraude
+
+270
+00:11:03,433 --> 00:11:05,133
+Deux sont condamnés à de la prison
+
+271
+00:11:05,000 --> 00:11:05,667
+ferme
+
+272
+00:11:06,900 --> 00:11:10,033
+Martin Winterkorn lui n'a toujours pas été
+
+273
+00:11:09,900 --> 00:11:10,533
+jugé
+
+274
+00:11:11,300 --> 00:11:13,433
+Son procès a été suspendu pour raisons
+
+275
+00:11:13,333 --> 00:11:14,067
+de santé
+
+276
+00:11:15,200 --> 00:11:17,933
+Et pour être clair : des manipulations
+
+277
+00:11:17,833 --> 00:11:20,567
+chez Volkswagen, cela ne doit plus jamais
+
+278
+00:11:20,467 --> 00:11:21,300
+se reproduire.
+
+279
+00:11:21,300 --> 00:11:23,633
+Tout est parti d'un petit laboratoire de
+
+280
+00:11:23,500 --> 00:11:26,067
+trois voitures et de soixante-dix mille dollars
+
+281
+00:11:27,300 --> 00:11:29,333
+Ces chercheurs voulaient montrer que le diesel
+
+282
+00:11:29,200 --> 00:11:30,467
+pouvait être propre
+
+283
+00:11:31,233 --> 00:11:32,467
+Ils ont mis au jour l'une des
+
+284
+00:11:32,367 --> 00:11:34,467
+plus grandes fraudes de l'histoire de l'industrie
