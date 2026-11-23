@@ -50,3 +50,26 @@ Plusieurs entrées sont des **recherches** (`ytsearch1:`) : vérifier le titre e
 la recherche par l'URL exacte si ce n'est pas la bonne vidéo. Compléter avec : reportages ARD/ZDF/France 24/Arte,
 conférences de presse VW, publicités « Clean Diesel », images de bourse, usines de Wolfsburg (Wikimedia Commons).
 Objectif : 8 à 12 sources, plus d'une heure de matière, et au moins 75 % d'images réelles dans le film.
+
+## Faits vérifiés (recherche web, novembre 2026)
+- Étude WVU/CAFEE commandée par l'ICCT en 2013 : ~70 000 $ (69 387 $ exactement). Jetta (piège à NOx), Passat (SCR), BMW X5.
+  Jetta 15 à 35 fois la norme Tier 2 Bin 5, Passat 5 à 20 fois ; BMW dans les clous. Résultats présentés en mai 2014 (15/05/2014),
+  transmis au CARB et à l'EPA. — theicct.org (communiqué), magazine-archive.wvu.edu « Double exposure », Wikipedia.
+- Rappel « volontaire » de décembre 2014 jugé insuffisant (lettre EPA/CARB). 3 septembre 2015 : VW reconnaît le defeat device devant
+  l'EPA et le CARB. 18 septembre 2015 : avis d'infraction de l'EPA (482 000 voitures 2.0 TDI 2009-2015). 22 septembre : VW reconnaît
+  11 millions de véhicules. 23 septembre : démission de Winterkorn. — CTV, CSMonitor, NPR, CBS, Scotsman.
+- Action : -18,6 % à la clôture du 21/09/2015 (jusqu'à -23 % en séance), environ un tiers en quelques jours, ~25 Md€ de capitalisation.
+  — NPR, Bloomberg via TPR, Business Standard (Xinhua), Euronews 22/09/2015.
+- Michael Horn : « We have totally screwed up » (lancement Passat, Brooklyn, 21/09/2015 ; archive vidéo). Audition Chambre des
+  représentants (Energy and Commerce) le 8/10/2015, « a couple of software engineers ». — NPR, CNN Money, The Register.
+- Plaider-coupable janvier 2017 : 4,3 Md$ (2,8 Md$ pénal + 1,5 Md$ civil). Oliver Schmidt : 7 ans (06/12/2017). James Liang :
+  40 mois (25/08/2017). — justice.gov, NPR.
+- Rupert Stadler (Audi) : 1 an et 9 mois avec sursis + 1,1 M€ d'amende (Munich, 27/06/2023), premier membre du directoire condamné.
+  — Time/AP, Euronews.
+- Braunschweig, 26/05/2025 : quatre ex-managers condamnés pour fraude, dont deux à de la prison ferme (Jens Hadler 4,5 ans, Hanno Jelden).
+  Winterkorn : procès séparé, suspendu pour raisons de santé (2024-2025), toujours pas jugé. — Euronews, Irish Times, Fortune.
+- Coût total : ~32 à 33 Md€ (porte-parole VW 2025 : 33,8 Md€ ; Bloomberg août 2025 : 32 Md€). Dire « plus de trente milliards d'euros ».
+- Santé (formuler prudemment) : étude MIT/Harvard 2015 ~59 décès prématurés estimés aux États-Unis ; étude MIT 2017 ~1 200 en Europe.
+  — news.mit.edu, seas.harvard.edu.
+- Singes : expérience de 2014 au Lovelace Respiratory Research Institute (Albuquerque), 10 macaques exposés aux gaz d'une Beetle
+  diesel truquée, financée via l'EUGT ; révélée par le New York Times en janvier 2018. — NYT via Irish Times, Fortune, National Geographic.

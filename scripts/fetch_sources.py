@@ -16,6 +16,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 from pathlib import Path
 
@@ -138,7 +139,15 @@ def whisper(path: Path, model: str, lang: str | None) -> list[dict]:
         print("  faster-whisper not installed -> no transcript")
         return []
     wm = WhisperModel(model, device="cpu", compute_type="int8")
-    segments, _ = wm.transcribe(str(path), language=lang, vad_filter=True)
+    # Decode with ffmpeg (16 kHz mono float32) instead of PyAV: some PyAV versions break faster-whisper's decode_audio.
+    import numpy as np  # type: ignore
+
+    pcm = subprocess.run(
+        ["ffmpeg", "-v", "error", "-i", str(path), "-vn", "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+        check=True, capture_output=True,
+    ).stdout
+    audio = np.frombuffer(pcm, dtype=np.float32)
+    segments, _ = wm.transcribe(audio, language=lang, vad_filter=True)
     return [{"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()} for s in segments]
 
 
