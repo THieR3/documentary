@@ -34,12 +34,12 @@ def ass_time(sec: float) -> str:
 
 
 def lines_of(words: list[dict]) -> list[list[dict]]:
-    """Coupe en lignes courtes (≤ 22 caractères), en privilégiant la ponctuation."""
+    """Coupe en lignes courtes (≤ 17 caractères), en privilégiant la ponctuation."""
     out, cur = [], []
     for w in words:
         cur.append(w)
         n = len(" ".join(x["text"] for x in cur))
-        if n >= 16 and w["text"][-1] in ".,:;?!»" or n >= 22:
+        if n >= 12 and w["text"][-1] in ".,:;?!»" or n >= 17:
             out.append(cur)
             cur = []
     if cur:
@@ -53,11 +53,11 @@ def make_ass(words: list[dict], start: int, end: int, path: Path) -> None:
 ScriptType: v4.00+
 PlayResX: 1080
 PlayResY: 1920
-WrapStyle: 2
+WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Inter Black,84,&H00F5F1E8,&H00F5F1E8,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,2,8,60,60,{CAPTION_Y},1
+Style: Cap,Inter Black,70,&H00F5F1E8,&H00F5F1E8,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,6,2,8,60,60,{CAPTION_Y},1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -89,6 +89,7 @@ def build(short: dict, raw_dir: Path, out_dir: Path, words: list[dict]) -> Path:
     for k, v in texts.items():
         (work / f"{k}.txt").write_text(v, encoding="utf-8")
     fade = 0.35
+    tsize = min(96, int(1000 / (0.66 * max(len(t) for t in short["title"]))))
     fc = (
         f"[0:v]split[bgs][fgs];"
         f"[bgs]scale=-2:1920,crop=1080:1920,gblur=sigma=40,eq=brightness=-0.28:saturation=0.8[bg];"
@@ -96,10 +97,10 @@ def build(short: dict, raw_dir: Path, out_dir: Path, words: list[dict]) -> Path:
         f"[bg][fg]overlay=0:{VIDEO_Y}[v0];"
         f"[v0]drawbox=x=0:y={VIDEO_Y - 4}:w=1080:h=4:color=0x{ACCENT}:t=fill,"
         f"drawbox=x=0:y={VIDEO_Y + 608}:w=1080:h=4:color=0x{ACCENT}:t=fill,"
-        f"drawtext=fontfile={FONT_BLACK}:textfile='{esc(work / 't1.txt')}':fontsize=96:fontcolor=0xF5F1E8:"
+        f"drawtext=fontfile={FONT_BLACK}:textfile='{esc(work / 't1.txt')}':fontsize={tsize}:fontcolor=0xF5F1E8:"
         f"borderw=5:bordercolor=black:x=(w-tw)/2:y=250,"
-        f"drawtext=fontfile={FONT_BLACK}:textfile='{esc(work / 't2.txt')}':fontsize=96:fontcolor=0x{ACCENT}:"
-        f"borderw=5:bordercolor=black:x=(w-tw)/2:y=360,"
+        f"drawtext=fontfile={FONT_BLACK}:textfile='{esc(work / 't2.txt')}':fontsize={tsize}:fontcolor=0x{ACCENT}:"
+        f"borderw=5:bordercolor=black:x=(w-tw)/2:y={250 + tsize + 14},"
         f"drawtext=fontfile={FONT_BOLD}:textfile='{esc(work / 'st.txt')}':fontsize=46:fontcolor=0xF5F1E8:"
         f"borderw=3:bordercolor=black:x=(w-tw)/2:y=490,"
         f"ass='{esc(work / 'caps.ass')}',"
