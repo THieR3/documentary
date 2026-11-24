@@ -1,6 +1,6 @@
 // Bundles once, then renders video chunks (muted) or QA stills.
 // Usage:
-//   node render.mjs chunks <props.json> <mediaDir> <outDir> [--chunk-sec 60] [--scale 1] [--concurrency N] [--max-frames N]
+//   node render.mjs chunks <props.json> <mediaDir> <outDir> [--chunk-sec 60] [--scale 1] [--concurrency N] [--from N] [--max-frames N]
 //   node render.mjs stills <props.json> <mediaDir> <outDir> [--scale 0.5] [--frames 10,200,...]
 import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
@@ -64,7 +64,8 @@ if (mode === "chunks") {
   const total = Math.min(composition.durationInFrames, Number(opt("max-frames", String(composition.durationInFrames))));
   const chunk = Math.round(Number(opt("chunk-sec", "60")) * fps);
   const list = [];
-  for (let a = 0, i = 0; a < total; a += chunk, i++) list.push({ i, a, b: Math.min(total, a + chunk) - 1 });
+  const from = Number(opt("from", "0")); // render only [from, max-frames) when set
+  for (let a = from, i = 0; a < total; a += chunk, i++) list.push({ i, a, b: Math.min(total, a + chunk) - 1 });
   const t0 = Date.now();
   for (const { i, a, b } of list) {
     const out = path.join(outDir, `c${String(i).padStart(4, "0")}.mp4`);
