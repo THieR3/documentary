@@ -1,0 +1,50 @@
+# Télécharge les sources YouTube d'un projet depuis un runner GitHub (la session cloud est bloquée par YouTube)
+# et les joint à la release "sources-<slug>". Déclenché en modifiant .github/fetch-sources.txt (une ligne : le slug).
+name: fetch-sources
+
+on:
+  push:
+    paths:
+      - ".github/fetch-sources.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Install yt-dlp and ffmpeg
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          python3 -m pip install -q -U "yt-dlp[default]"
+          yt-dlp --version
+      - name: Download sources
+        id: dl
+        run: |
+          SLUG=$(head -n1 .github/fetch-sources.txt | tr -d '[:space:]')
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          mkdir -p dl && cd dl
+          ok=0; ko=0
+          while read -r url; do
+            [ -z "$url" ] && continue
+            if yt-dlp -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b" --merge-output-format mp4 \
+                 -o "%(id)s.%(ext)s" --retries 3 --sleep-requests 1 "$url"; then ok=$((ok+1)); else ko=$((ko+1)); echo "FAILED $url"; fi
+          done < "../projects/$SLUG/liens_a_telecharger.txt"
+          echo "downloaded=$ok failed=$ko"
+          ls -la
+      - name: Upload to release sources-<slug>
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="sources-${{ steps.dl.outputs.slug }}"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Sources téléchargées par GitHub Actions" --target "${{ github.sha }}"
+          shopt -s nullglob
+          files=(dl/*.mp4)
+          [ ${#files[@]} -gt 0 ] && gh release upload "$TAG" "${files[@]}" --clobber || echo "nothing to upload"
